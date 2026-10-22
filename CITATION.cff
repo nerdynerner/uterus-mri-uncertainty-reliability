@@ -5,6 +5,7 @@ title: "Assessing the Reliability of Machine Learning Error Identification Acros
 authors:
   - family-names: Otu
     given-names: Neriah
+    affiliation: "Department of Biomedical Engineering, University of Calgary, Calgary, Alberta, Canada"
 repository-code: "https://github.com/nerdynerner/uterus-mri-uncertainty-reliability"
 abstract: "Evaluation of uncertainty ranking and source-calibrated fixed review thresholds for uterus MRI segmentation across UT-EndoMRI cohorts."
 keywords:
