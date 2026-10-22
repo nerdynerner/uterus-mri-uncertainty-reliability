@@ -1,0 +1,140 @@
+[
+  {
+    "source_module": "pipeline.py",
+    "source_sha256": "d7894fc66c61095ac9ba7a68efdf41811bce1b3c0c2c94ea03b8aa165b6ac1fc",
+    "repository_path": "src/pipeline.py",
+    "publication_sha256": "b41195c8cb19aa6c3adb7a6c2f3aa6830439e7dae0067513a0a3a931be1e43fe"
+  },
+  {
+    "source_module": "monai_components.py",
+    "source_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+    "repository_path": "src/monai_components.py",
+    "publication_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64"
+  },
+  {
+    "source_module": "study_manifest.py",
+    "source_sha256": "23f9d24cecc687ec71f95e084aae61301d8282dbda907ed813748c465ffa74c0",
+    "repository_path": "src/study_manifest.py",
+    "publication_sha256": "e9b35775d06d142f605afa416133565005e0c1fa67118f30c4e045e5f87f9a40"
+  },
+  {
+    "source_module": "audit_dataset.py",
+    "source_sha256": "3c6a38f7f3f6cd0ef23596d2e6a2572c179f983d7014be057d59abcb3e8b33ad",
+    "repository_path": "src/audit_dataset.py",
+    "publication_sha256": "3c6a38f7f3f6cd0ef23596d2e6a2572c179f983d7014be057d59abcb3e8b33ad"
+  },
+  {
+    "source_module": "audit_pair_geometry.py",
+    "source_sha256": "dc13bd274205b61f975ccfb3dafa8792c49c08dc8a3e2af1c23b1894aed1ae17",
+    "repository_path": "src/audit_pair_geometry.py",
+    "publication_sha256": "dc13bd274205b61f975ccfb3dafa8792c49c08dc8a3e2af1c23b1894aed1ae17"
+  },
+  {
+    "source_module": "packed_disagreement.py",
+    "source_sha256": "741b182d1b1de967fb623eda323fc7d09f49f02bd7ee81396a5643ede0e3abd3",
+    "repository_path": "src/packed_disagreement.py",
+    "publication_sha256": "741b182d1b1de967fb623eda323fc7d09f49f02bd7ee81396a5643ede0e3abd3"
+  },
+  {
+    "source_module": "analyse_policy.py",
+    "source_sha256": "6d7f0eee224d84b7f45a2b28cb3ba0316b7fe6d9706d620345d8a6bee218ac7e",
+    "repository_path": "src/analyse_policy.py",
+    "publication_sha256": "6d7f0eee224d84b7f45a2b28cb3ba0316b7fe6d9706d620345d8a6bee218ac7e"
+  },
+  {
+    "source_module": "reliability_metrics.py",
+    "source_sha256": "c21a60ba15feb02a1d9192b2633b1ddd9282f81bad405ed9df061e26d80f794c",
+    "repository_path": "src/reliability_metrics.py",
+    "publication_sha256": "1615963e664ab2c6bd220316f7f57043c39e80b9ef781ad6b548025320b0a93f"
+  },
+  {
+    "source_module": "secondary_policy_metrics.py",
+    "source_sha256": "abc5fad6c34aa36a2fc388d912bf9ba59efe7c35b92416301d7196d4c6c70093",
+    "repository_path": "src/secondary_policy_metrics.py",
+    "publication_sha256": "abc5fad6c34aa36a2fc388d912bf9ba59efe7c35b92416301d7196d4c6c70093"
+  },
+  {
+    "source_module": "spatial_endpoints.py",
+    "source_sha256": "e6c340630b119726ae3e580786d5f668b9ebe9ab5be90df87289f7e7c69ef70b",
+    "repository_path": "src/spatial_endpoints.py",
+    "publication_sha256": "e6c340630b119726ae3e580786d5f668b9ebe9ab5be90df87289f7e7c69ef70b"
+  },
+  {
+    "source_module": "probability_calibration.py",
+    "source_sha256": "d1f31eff4f76947bbb8eaeff2a2af9c9c702054f2a7ab2d05eb2f15191f1a38c",
+    "repository_path": "src/probability_calibration.py",
+    "publication_sha256": "d1f31eff4f76947bbb8eaeff2a2af9c9c702054f2a7ab2d05eb2f15191f1a38c"
+  },
+  {
+    "source_module": "evaluation_runner.py",
+    "source_sha256": "7a903928afe6bc2e85f79e1836edbcbbb9932a69226da524137d81e0e4366910",
+    "repository_path": "src/evaluation_runner.py",
+    "publication_sha256": "6f3b12d5c43ffe1a514f272abc38a5b03383d67e85526179fa6aa9b35c5a4a88"
+  },
+  {
+    "source_module": "research_analysis.py",
+    "source_sha256": "17a2a88c7d6d5bb797adf1557af4292634154dbed46c14aa731c4424e29c8da1",
+    "repository_path": "src/research_analysis.py",
+    "publication_sha256": "17a2a88c7d6d5bb797adf1557af4292634154dbed46c14aa731c4424e29c8da1"
+  },
+  {
+    "source_module": "run_prespecified_models.py",
+    "source_sha256": "6196ce49dbb8a67acf3ddd3d568b6f043d42fffa67db97bacf2e7b14fe288013",
+    "repository_path": "src/run_prespecified_models.py",
+    "publication_sha256": "76890e314b7ede04b1ba3072fa7e2ebda8078d312a8b1f17740df2434b454a9b"
+  },
+  {
+    "source_module": "benchmark_runtime.py",
+    "source_sha256": "b097095181203e5ccdddee20dba8d51361138a458347b003e83f737d0c5e8527",
+    "repository_path": "src/benchmark_runtime.py",
+    "publication_sha256": "b097095181203e5ccdddee20dba8d51361138a458347b003e83f737d0c5e8527"
+  },
+  {
+    "source_module": "verify_integration.py",
+    "source_sha256": "b195191960159ff7e30095c4010309964e100a811070b5b65bc661f9c9c7964c",
+    "repository_path": "src/verify_integration.py",
+    "publication_sha256": "951f1a0e0a67a652b50899efddff11c7677479a59cda759754c179d838b81ded"
+  },
+  {
+    "source_module": "verify_metrics.py",
+    "source_sha256": "5ac1a1c3e3d1949ebf7ff91b401a397e915f706656d3a09148df929a482d159b",
+    "repository_path": "src/verify_metrics.py",
+    "publication_sha256": "7efbae0d22548582ff82cf8add2dc08ca039232dce6391654050e344784216c8"
+  },
+  {
+    "source_module": "verify_space_extended.py",
+    "source_sha256": "889d973ab31ab329e7592cc5fcd76e342436a6722bbeb00a60f70bdd7026ac56",
+    "repository_path": "src/verify_space_extended.py",
+    "publication_sha256": "ea06d52a8b724486ec8b4617e7d1cd40a429452c2b040b8cda98bec385e2f397"
+  },
+  {
+    "source_module": "verify_spatial_crop.py",
+    "source_sha256": "41f003e61941eac7b7324dcd96d2cac1a57e824c01e1c3e42627d91e07b47558",
+    "repository_path": "src/verify_spatial_crop.py",
+    "publication_sha256": "41f003e61941eac7b7324dcd96d2cac1a57e824c01e1c3e42627d91e07b47558"
+  },
+  {
+    "source_module": "verify_final_results.py",
+    "source_sha256": "39d045ed65cdd2ff0fa757cdc5fc2bb11c254d5002a7a14d1f9e9a163f3ee587",
+    "repository_path": "src/verify_final_results.py",
+    "publication_sha256": "39d045ed65cdd2ff0fa757cdc5fc2bb11c254d5002a7a14d1f9e9a163f3ee587"
+  },
+  {
+    "source_module": "test_study_controls.py",
+    "source_sha256": "9b6466b8a82997e8a697db41346ebc2e38d977c0295912e960626edcca29c537",
+    "repository_path": "src/test_study_controls.py",
+    "publication_sha256": "9b6466b8a82997e8a697db41346ebc2e38d977c0295912e960626edcca29c537"
+  },
+  {
+    "source_module": "test_secondary_policy.py",
+    "source_sha256": "2dab39fd83656e797b5d8d43f1ed467c7e15786a26c7fb23d7f762797e83a653",
+    "repository_path": "src/test_secondary_policy.py",
+    "publication_sha256": "2dab39fd83656e797b5d8d43f1ed467c7e15786a26c7fb23d7f762797e83a653"
+  },
+  {
+    "source_module": "training_pipeline.py",
+    "source_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+    "repository_path": "src/training_pipeline.py",
+    "publication_sha256": "b7c2239c299504fa868c3455e6555cddc679ad0856b4109fb20aa163a8ade71a"
+  }
+]

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation."
+type: software
+title: "Assessing the Reliability of Machine Learning Error Identification Across Uterus MRI Cohorts"
+authors:
+  - family-names: Otu
+    given-names: Neriah
+repository-code: "https://github.com/nerdynerner/uterus-mri-uncertainty-reliability"
+abstract: "Evaluation of uncertainty ranking and source-calibrated fixed review thresholds for uterus MRI segmentation across UT-EndoMRI cohorts."
+keywords:
+  - uterus segmentation
+  - predictive uncertainty
+  - MRI
+  - selective prediction
+version: 1.0.0
+license: MIT

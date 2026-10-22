@@ -1,0 +1,30 @@
+{
+  "included": {
+    "D1": 26,
+    "D2": 54
+  },
+  "excluded": 44,
+  "partition_n": {
+    "train": 27,
+    "validation": 8,
+    "calibration": 8,
+    "internal_test": 11,
+    "external_test": 26
+  },
+  "sequence_distribution": {
+    "D1_T2": 26,
+    "D2_T2": 12,
+    "D2_T2FS": 42
+  },
+  "external_reference_counts": {
+    "3": 1,
+    "2": 10,
+    "1": 15
+  },
+  "cross_ID_ambiguities": [
+    "D2-007",
+    "D2-008",
+    "D2-009",
+    "D2-010"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "cohort_cases": 80,
+  "partition_counts": {
+    "train": 27,
+    "validation": 8,
+    "calibration": 8,
+    "internal_test": 11,
+    "external_test": 26
+  },
+  "selected_checkpoint_hashes_verified": 6,
+  "completed_training_runs": 6,
+  "heldout_score_rows": 111,
+  "control_tests_passed": 9,
+  "statistical_formula_checks_passed": 209,
+  "frozen_thresholds_reconstructed": true,
+  "primary_policy_and_bootstrap_recomputed": true,
+  "risk_coverage_recomputed": true,
+  "scientific_source_equivalence_checked": true,
+  "manuscript_figure_csv_tables_match": 4,
+  "figure_pdfs_regenerated": 3,
+  "absolute_personal_paths_found": 0,
+  "prohibited_language_matches": 0,
+  "credential_pattern_matches": 0,
+  "original_images_uploaded": 0,
+  "model_weights_uploaded": 0,
+  "full_retraining_performed": false,
+  "image_based_secondary_analyses_repeated": false,
+  "fresh_environment_installation_tested": false
+}

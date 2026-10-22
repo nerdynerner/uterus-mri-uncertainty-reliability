@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "participant_method_native_outputs_checked": 111,
+  "required_outputs": 111,
+  "native_dice_iou_volume_recomputed": true,
+  "policy_retention_and_risk_recomputed": true,
+  "frozen_temperatures_unchanged": true,
+  "analysis_sha256": "9cfdfbd268c270975e9941265eb1a30b5add774fec5e3d51496aba97bee6e4e5",
+  "implementation_amendments_sha256": "a4adb1853855d3c9653d79242cde70d6105acf59edf1d4c59a43edfbcd9d7557",
+  "executed_analysis_sha256": "17a2a88c7d6d5bb797adf1557af4292634154dbed46c14aa731c4424e29c8da1",
+  "executed_spatial_endpoints_sha256": "e6c340630b119726ae3e580786d5f668b9ebe9ab5be90df87289f7e7c69ef70b"
+}

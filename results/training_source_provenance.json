@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all_six_training_code_hashes_match_preserved_source": true,
+  "model_component_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+  "all_six_training_component_hashes_match_evaluated_model_definition": true,
+  "training_pipeline_source_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb"
+}

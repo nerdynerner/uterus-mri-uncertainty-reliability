@@ -1,0 +1,728 @@
+[
+  {
+    "participant": "D2-000",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.5322532653808594,
+    "raw_uncertainty": 0.5322532653808594,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.24980549936648366,
+        "iou": 0.1427301361511888,
+        "absolute_volume_error_ml": 16.080062076609398,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7501945006335163
+    ]
+  },
+  {
+    "participant": "D2-002",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.5583072304725647,
+    "raw_uncertainty": 0.5583072304725647,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.09044312586794596,
+        "iou": 0.047363410377109005,
+        "absolute_volume_error_ml": 121.85307761054379,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.909556874132054
+    ]
+  },
+  {
+    "participant": "D2-020",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.4189034402370453,
+    "raw_uncertainty": 0.4189034402370453,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.722608863446324,
+        "iou": 0.5656911518862414,
+        "absolute_volume_error_ml": 27.557371267520736,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.277391136553676
+    ]
+  },
+  {
+    "participant": "D2-021",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.42005643248558044,
+    "raw_uncertainty": 0.42005643248558044,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7038478268536698,
+        "iou": 0.5430286978921017,
+        "absolute_volume_error_ml": 16.504027270680062,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.29615217314633024
+    ]
+  },
+  {
+    "participant": "D2-023",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.42045858502388,
+    "raw_uncertainty": 0.42045858502388,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.5899306395362446,
+        "iou": 0.41836994411553147,
+        "absolute_volume_error_ml": 40.48920393184687,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4100693604637554
+    ]
+  },
+  {
+    "participant": "D2-024",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.4115506708621979,
+    "raw_uncertainty": 0.4115506708621979,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6291737303751751,
+        "iou": 0.4589740832347564,
+        "absolute_volume_error_ml": 52.63549947253559,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3708262696248249
+    ]
+  },
+  {
+    "participant": "D2-025",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.4236378073692322,
+    "raw_uncertainty": 0.4236378073692322,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.5856985774173596,
+        "iou": 0.41412570762166234,
+        "absolute_volume_error_ml": 58.454524259674585,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.41430142258264036
+    ]
+  },
+  {
+    "participant": "D2-027",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.40799710154533386,
+    "raw_uncertainty": 0.40799710154533386,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7210619975863691,
+        "iou": 0.5637974602565333,
+        "absolute_volume_error_ml": 30.344666725424677,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.27893800241363087
+    ]
+  },
+  {
+    "participant": "D2-053",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.5150559544563293,
+    "raw_uncertainty": 0.5150559544563293,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.32238057311348733,
+        "iou": 0.1921654982928948,
+        "absolute_volume_error_ml": 162.18179976513292,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6776194268865127
+    ]
+  },
+  {
+    "participant": "D2-055",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.4263615310192108,
+    "raw_uncertainty": 0.4263615310192108,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.5858105919195348,
+        "iou": 0.41423771707827906,
+        "absolute_volume_error_ml": 78.62183556077345,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4141894080804652
+    ]
+  },
+  {
+    "participant": "D2-065",
+    "method": "deterministic",
+    "partition": "internal_test",
+    "uncertainty": 0.4241717755794525,
+    "raw_uncertainty": 0.4241717755794525,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6871627683637237,
+        "iou": 0.5234180992165092,
+        "absolute_volume_error_ml": 4.593904498025532,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3128372316362763
+    ]
+  },
+  {
+    "participant": "D2-000",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.5236353176290587,
+    "raw_uncertainty": 0.5236353176290587,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.4146923060094944,
+        "iou": 0.26158474318990976,
+        "absolute_volume_error_ml": 18.09948357590952,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5853076939905055
+    ]
+  },
+  {
+    "participant": "D2-002",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.6574397202801637,
+    "raw_uncertainty": 0.6574397202801637,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.15893220644695819,
+        "iou": 0.08632610216934919,
+        "absolute_volume_error_ml": 126.06530889460132,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8410677935530418
+    ]
+  },
+  {
+    "participant": "D2-020",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.25591723204656247,
+    "raw_uncertainty": 0.25591723204656247,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7443233028056404,
+        "iou": 0.5927666767000856,
+        "absolute_volume_error_ml": 5.200194976728166,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.2556766971943596
+    ]
+  },
+  {
+    "participant": "D2-021",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.27437398122514434,
+    "raw_uncertainty": 0.27437398122514434,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7904090757093494,
+        "iou": 0.6534515593963098,
+        "absolute_volume_error_ml": 4.460020213928919,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.20959092429065063
+    ]
+  },
+  {
+    "participant": "D2-023",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.2893494963365424,
+    "raw_uncertainty": 0.2893494963365424,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.610579561042524,
+        "iou": 0.43944909972726487,
+        "absolute_volume_error_ml": 11.16434930348645,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.389420438957476
+    ]
+  },
+  {
+    "participant": "D2-024",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.24892484225471997,
+    "raw_uncertainty": 0.24892484225471997,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7331768778815266,
+        "iou": 0.578752364935884,
+        "absolute_volume_error_ml": 24.239502609664864,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.26682312211847337
+    ]
+  },
+  {
+    "participant": "D2-025",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.35179803592773934,
+    "raw_uncertainty": 0.35179803592773934,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6530837706346002,
+        "iou": 0.4848733398529922,
+        "absolute_volume_error_ml": 24.75404131303088,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3469162293653998
+    ]
+  },
+  {
+    "participant": "D2-027",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.25869105337541415,
+    "raw_uncertainty": 0.25869105337541415,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.8043895617548766,
+        "iou": 0.6727856633098089,
+        "absolute_volume_error_ml": 2.3740354199221496,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.19561043824512336
+    ]
+  },
+  {
+    "participant": "D2-053",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.5546920473695731,
+    "raw_uncertainty": 0.5546920473695731,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.3813416259440249,
+        "iou": 0.23559117356460643,
+        "absolute_volume_error_ml": 148.05726514205284,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6186583740559751
+    ]
+  },
+  {
+    "participant": "D2-055",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.29104109719883303,
+    "raw_uncertainty": 0.29104109719883303,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6634378333012781,
+        "iou": 0.496376337615447,
+        "absolute_volume_error_ml": 50.67993769274506,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.33656216669872185
+    ]
+  },
+  {
+    "participant": "D2-065",
+    "method": "ensemble",
+    "partition": "internal_test",
+    "uncertainty": 0.25784300675022537,
+    "raw_uncertainty": 0.25784300675022537,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6909532649050011,
+        "iou": 0.5278293328884532,
+        "absolute_volume_error_ml": 11.787395512237948,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3090467350949989
+    ]
+  },
+  {
+    "participant": "D2-000",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.6648061570484562,
+    "raw_uncertainty": 0.6648061570484562,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.0904865464159311,
+        "iou": 0.047387226440375164,
+        "absolute_volume_error_ml": 43.98935975892572,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9095134535840689
+    ]
+  },
+  {
+    "participant": "D2-002",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.5720902883270848,
+    "raw_uncertainty": 0.5720902883270848,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.06188180109837284,
+        "iou": 0.03192880657817597,
+        "absolute_volume_error_ml": 149.8014438501793,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9381181989016272
+    ]
+  },
+  {
+    "participant": "D2-020",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.17878663281549104,
+    "raw_uncertainty": 0.17878663281549104,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7539029399514556,
+        "iou": 0.6050114105253452,
+        "absolute_volume_error_ml": 2.1350096277693806,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.24609706004854437
+    ]
+  },
+  {
+    "participant": "D2-021",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.23378669500892185,
+    "raw_uncertainty": 0.23378669500892185,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6939664867296447,
+        "iou": 0.5313542720599316,
+        "absolute_volume_error_ml": 22.336361396587108,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.30603351327035533
+    ]
+  },
+  {
+    "participant": "D2-023",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.2589881876867209,
+    "raw_uncertainty": 0.2589881876867209,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.5725167612712335,
+        "iou": 0.40106723899685415,
+        "absolute_volume_error_ml": 43.08319853083461,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4274832387287665
+    ]
+  },
+  {
+    "participant": "D2-024",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.2274504691227426,
+    "raw_uncertainty": 0.2274504691227426,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6869360459640199,
+        "iou": 0.5231550556639504,
+        "absolute_volume_error_ml": 1.3806152717697013,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3130639540359801
+    ]
+  },
+  {
+    "participant": "D2-025",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.3592993035243427,
+    "raw_uncertainty": 0.3592993035243427,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.5670662537940337,
+        "iou": 0.39573794342932944,
+        "absolute_volume_error_ml": 18.985462911925996,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.43293374620596625
+    ]
+  },
+  {
+    "participant": "D2-027",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.14246105641895154,
+    "raw_uncertainty": 0.14246105641895154,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7949659689225632,
+        "iou": 0.6597041647129034,
+        "absolute_volume_error_ml": 18.27909576409194,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.20503403107743678
+    ]
+  },
+  {
+    "participant": "D2-053",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.575546971738095,
+    "raw_uncertainty": 0.575546971738095,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.172282598091819,
+        "iou": 0.09426107007130963,
+        "absolute_volume_error_ml": 200.07844151019788,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.827717401908181
+    ]
+  },
+  {
+    "participant": "D2-055",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.17192769753957293,
+    "raw_uncertainty": 0.17192769753957293,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.6474304760957166,
+        "iou": 0.47866705899661616,
+        "absolute_volume_error_ml": 62.069099209071176,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3525695239042834
+    ]
+  },
+  {
+    "participant": "D2-065",
+    "method": "dropout",
+    "partition": "internal_test",
+    "uncertainty": 0.19474385910611022,
+    "raw_uncertainty": 0.19474385910611022,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "dice": 0.7355611638093581,
+        "iou": 0.58172933538278,
+        "absolute_volume_error_ml": 23.831402568992196,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.2644388361906419
+    ]
+  }
+]

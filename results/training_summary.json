@@ -1,0 +1,200 @@
+[
+  {
+    "seed": 61901,
+    "configuration": {
+      "seed": 61901,
+      "dropout": 0.0,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_020.pt",
+      "epoch": 20,
+      "sha256": "6b1a21c351b092e112f250575e7908de42c5cbb0a30846be55091bc1253164fe"
+    },
+    "completed_epochs": 35,
+    "selected_checkpoint_bytes": 1622801
+  },
+  {
+    "seed": 61902,
+    "configuration": {
+      "seed": 61902,
+      "dropout": 0.0,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_019.pt",
+      "epoch": 19,
+      "sha256": "6b51b39c5450300249eb0a5f1fba615538c0827a59efcbbb8224a974b8ec1e77"
+    },
+    "completed_epochs": 34,
+    "selected_checkpoint_bytes": 1622801
+  },
+  {
+    "seed": 61903,
+    "configuration": {
+      "seed": 61903,
+      "dropout": 0.0,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_015.pt",
+      "epoch": 15,
+      "sha256": "6f438e7437ebe21509b0c6d6119ed7aab38837de3b0bc861d2621dfd0458ad7a"
+    },
+    "completed_epochs": 30,
+    "selected_checkpoint_bytes": 1622801
+  },
+  {
+    "seed": 61904,
+    "configuration": {
+      "seed": 61904,
+      "dropout": 0.0,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_025.pt",
+      "epoch": 25,
+      "sha256": "569eab00504f8aa07af829d738de93ef5c5e9848a1d2e8983659766423b5a3ae"
+    },
+    "completed_epochs": 40,
+    "selected_checkpoint_bytes": 1622801
+  },
+  {
+    "seed": 61905,
+    "configuration": {
+      "seed": 61905,
+      "dropout": 0.0,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_018.pt",
+      "epoch": 18,
+      "sha256": "e3fb348e154b5264fa4f3b5b3dfd044a2bfad6c331c6c1b082e93fef37e17cca"
+    },
+    "completed_epochs": 33,
+    "selected_checkpoint_bytes": 1622801
+  },
+  {
+    "seed": 61911,
+    "configuration": {
+      "seed": 61911,
+      "dropout": 0.2,
+      "batch_size": 1,
+      "epochs": 100,
+      "patience": 15,
+      "augmentation": "none in initial implementation",
+      "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+      "split_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+      "code_sha256": "e6a814e58b6c17aacc89d487a7eca7f6f758b2c93a1ecf4c62e3cf010a5b1cbb",
+      "components_sha256": "afad5990fbfa3c650b5bbf655a84673a97b72a80ecc94134233d685fc10cfd64",
+      "benchmark_sha256": "bd2d81f76dbf12fbfe3149ebfdb93491dd7f8eb5f309e55688aba968a0c474b7",
+      "integration_sha256": "9eb799c5c083cf522bcc2d80a8399cfebb34a2af2d31e84a7ec41b0c6072bbdf",
+      "device": "mps",
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "torch": "2.14.1",
+        "monai": "1.6.1",
+        "numpy": "2.5.4",
+        "nibabel": "5.4.2",
+        "scipy": "1.18.1"
+      }
+    },
+    "selection": {
+      "path": "best_epoch_045.pt",
+      "epoch": 45,
+      "sha256": "d39f90e0ea6314a76bdbcc952e58a9af4462ad4e4de69c0fba2e8e3f5fbc0090"
+    },
+    "completed_epochs": 60,
+    "selected_checkpoint_bytes": 1622801
+  }
+]

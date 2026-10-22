@@ -1,0 +1,3377 @@
+{
+  "internal_test": {
+    "partition": "internal_test",
+    "methods": {
+      "deterministic": {
+        "threshold": 0.4375477910041809,
+        "policy": {
+          "n": 11,
+          "retained": 8,
+          "coverage": 0.7272727272727273,
+          "overall_error": 0.46473416419578933,
+          "retained_error": 0.3468381255626999,
+          "retained_minus_overall": -0.11789603863308945
+        },
+        "primary_effect_ci": {
+          "estimate": -0.11789603863308945,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.24779509498666544,
+            0.0
+          ]
+        },
+        "aurc": 0.3490260229871611,
+        "risk_coverage": [
+          [
+            0.09090909090909091,
+            0.27893800241363087
+          ],
+          [
+            0.18181818181818182,
+            0.3248821360192279
+          ],
+          [
+            0.2727272727272727,
+            0.30905180286404393
+          ],
+          [
+            0.36363636363636365,
+            0.3058268954346155
+          ],
+          [
+            0.45454545454545453,
+            0.32667538844044347
+          ],
+          [
+            0.5454545454545454,
+            0.341279727464143
+          ],
+          [
+            0.6363636363636364,
+            0.3372165137744477
+          ],
+          [
+            0.7272727272727273,
+            0.34683812556269994
+          ],
+          [
+            0.8181818181818182,
+            0.38359160348756804
+          ],
+          [
+            0.9090909090909091,
+            0.42025189320216283
+          ],
+          [
+            1.0,
+            0.46473416419578933
+          ]
+        ],
+        "failure_prevalence": 0.2727272727272727,
+        "failure_auroc": 1.0,
+        "failure_average_precision": 1.0,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 1998,
+          "undefined": 2,
+          "ci95": [
+            -0.24901927174738508,
+            0.0
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      },
+      "dropout": {
+        "threshold": 0.388133248640557,
+        "policy": {
+          "n": 11,
+          "retained": 8,
+          "coverage": 0.7272727272727273,
+          "overall_error": 0.47481845071416834,
+          "retained_error": 0.3184567379327468,
+          "retained_minus_overall": -0.15636171278142152
+        },
+        "primary_effect_ci": {
+          "estimate": -0.15636171278142152,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.3222309690807363,
+            0.0
+          ]
+        },
+        "aurc": 0.31729570368897186,
+        "risk_coverage": [
+          [
+            0.09090909090909091,
+            0.20503403107743678
+          ],
+          [
+            0.18181818181818182,
+            0.2788017774908601
+          ],
+          [
+            0.2727272727272727,
+            0.2679002050100882
+          ],
+          [
+            0.36363636363636365,
+            0.2670348628052266
+          ],
+          [
+            0.45454545454545453,
+            0.2762406810513773
+          ],
+          [
+            0.5454545454545454,
+            0.2812061530878736
+          ],
+          [
+            0.6363636363636364,
+            0.3021028796080012
+          ],
+          [
+            0.7272727272727273,
+            0.3184567379327468
+          ],
+          [
+            0.8181818181818182,
+            0.38730801137373355
+          ],
+          [
+            0.9090909090909091,
+            0.4313489504271783
+          ],
+          [
+            1.0,
+            0.47481845071416834
+          ]
+        ],
+        "failure_prevalence": 0.2727272727272727,
+        "failure_auroc": 1.0,
+        "failure_average_precision": 1.0,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 1999,
+          "undefined": 1,
+          "ci95": [
+            -0.33350978466876785,
+            -0.014158770633574028
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      },
+      "ensemble": {
+        "threshold": 0.4153046539313615,
+        "policy": {
+          "n": 11,
+          "retained": 8,
+          "coverage": 0.7272727272727273,
+          "overall_error": 0.39588005577861146,
+          "retained_error": 0.28870584399565047,
+          "retained_minus_overall": -0.10717421178296099
+        },
+        "primary_effect_ci": {
+          "estimate": -0.10717421178296099,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.23031166314869975,
+            0.0
+          ]
+        },
+        "aurc": 0.2925837244531857,
+        "risk_coverage": [
+          [
+            0.09090909090909091,
+            0.26682312211847337
+          ],
+          [
+            0.18181818181818182,
+            0.2612499096564165
+          ],
+          [
+            0.2727272727272727,
+            0.27718218480261064
+          ],
+          [
+            0.36363636363636365,
+            0.2567892481632388
+          ],
+          [
+            0.45454545454545453,
+            0.24734958338872115
+          ],
+          [
+            0.5454545454545454,
+            0.271028059316847
+          ],
+          [
+            0.6363636363636364,
+            0.2803900746571148
+          ],
+          [
+            0.7272727272727273,
+            0.2887058439956504
+          ],
+          [
+            0.8181818181818182,
+            0.3216616051061899
+          ],
+          [
+            0.9090909090909091,
+            0.3513612820011684
+          ],
+          [
+            1.0,
+            0.39588005577861146
+          ]
+        ],
+        "failure_prevalence": 0.2727272727272727,
+        "failure_auroc": 1.0,
+        "failure_average_precision": 1.0,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.2311795603019344,
+            0.0
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      }
+    },
+    "interpretation": "Technical segmentation error; no diagnostic or clinical-benefit claim",
+    "secondary": {
+      "deterministic": {
+        "spearman_error_uncertainty": 0.8636363636363636,
+        "reference_sensitivity": {
+          "raters": {
+            "single_source_rater": {
+              "n": 11,
+              "participant_ids": [
+                "D2-000",
+                "D2-002",
+                "D2-020",
+                "D2-021",
+                "D2-023",
+                "D2-024",
+                "D2-025",
+                "D2-027",
+                "D2-053",
+                "D2-055",
+                "D2-065"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 8,
+                "coverage": 0.7272727272727273,
+                "overall_error": 0.46473416419578933,
+                "retained_error": 0.3468381255626999,
+                "retained_minus_overall": -0.11789603863308945
+              },
+              "effect_ci": {
+                "estimate": -0.11789603863308945,
+                "draws": 2000,
+                "valid": 2000,
+                "undefined": 0,
+                "ci95": [
+                  -0.24779509498666544,
+                  0.0
+                ]
+              },
+              "spearman_error_uncertainty": 0.8636363636363636,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.34683812556269994,
+                    "expected_failures_found": 2.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.34683812556269994,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": 0.9166666666666666,
+                  "average_precision": 0.975,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.34683812556269994,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.375,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.34683812556269994,
+              "expected_failures_found": 2.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.34683812556269994,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": 0.9166666666666666,
+            "average_precision": 0.975,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.34683812556269994,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 0.375,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 11,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.008760809954945277,
+            "participant_balanced_nll": 0.04415795151138031,
+            "participant_balanced_ece_10_bins": 0.008230072742678595,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9840198863636366,
+                "mean_predicted_probability": 0.00038092012977003134,
+                "observed_target_fraction": 0.003924575965355466
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.001708984375,
+                "mean_predicted_probability": 0.14255588840354574,
+                "observed_target_fraction": 0.14285714285714285
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.000998757102272727,
+                "mean_predicted_probability": 0.24304200775093512,
+                "observed_target_fraction": 0.2000000000000001
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.000732421875,
+                "mean_predicted_probability": 0.34818462350151763,
+                "observed_target_fraction": 0.21212121212121215
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.000577059659090909,
+                "mean_predicted_probability": 0.4443221023449533,
+                "observed_target_fraction": 0.03846153846153847
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0006214488636363635,
+                "mean_predicted_probability": 0.5441097106252398,
+                "observed_target_fraction": 0.21428571428571436
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0007102272727272727,
+                "mean_predicted_probability": 0.650412555783987,
+                "observed_target_fraction": 0.21875000000000003
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0006436434659090908,
+                "mean_predicted_probability": 0.749949225063982,
+                "observed_target_fraction": 0.27586206896551735
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.001309481534090909,
+                "mean_predicted_probability": 0.8514076329893986,
+                "observed_target_fraction": 0.3728813559322034
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.008678089488636364,
+                "mean_predicted_probability": 0.9505632394719916,
+                "observed_target_fraction": 0.6138107416879794
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 11,
+            "temperature": 1.5025144855261143,
+            "participant_balanced_brier": 0.008165868610735203,
+            "participant_balanced_nll": 0.033847407369915934,
+            "participant_balanced_ece_10_bins": 0.005707733058377381,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9813343394886364,
+                "mean_predicted_probability": 0.002083638751295945,
+                "observed_target_fraction": 0.003596064683930793
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.002951882102272727,
+                "mean_predicted_probability": 0.14442903131454307,
+                "observed_target_fraction": 0.12781954887218047
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0016867897727272727,
+                "mean_predicted_probability": 0.24546237084442657,
+                "observed_target_fraction": 0.15789473684210525
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0011319247159090908,
+                "mean_predicted_probability": 0.34628200483773813,
+                "observed_target_fraction": 0.15686274509803927
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0009321732954545455,
+                "mean_predicted_probability": 0.44363632107429857,
+                "observed_target_fraction": 0.14285714285714288
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0009543678977272727,
+                "mean_predicted_probability": 0.5488403020951059,
+                "observed_target_fraction": 0.20930232558139533
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0008433948863636363,
+                "mean_predicted_probability": 0.6427307853862848,
+                "observed_target_fraction": 0.26315789473684215
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.001353870738636364,
+                "mean_predicted_probability": 0.7512960571880574,
+                "observed_target_fraction": 0.34426229508196715
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0087890625,
+                "mean_predicted_probability": 0.8772340390570623,
+                "observed_target_fraction": 0.6136363636363636
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 2.2194602272727273e-05,
+                "mean_predicted_probability": 0.9007571961090731,
+                "observed_target_fraction": 0.0
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 0,
+            "mean_difference_ci": null
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 0,
+            "mean_difference_ci": null
+          }
+        }
+      },
+      "ensemble": {
+        "spearman_error_uncertainty": 0.8272727272727273,
+        "reference_sensitivity": {
+          "raters": {
+            "single_source_rater": {
+              "n": 11,
+              "participant_ids": [
+                "D2-000",
+                "D2-002",
+                "D2-020",
+                "D2-021",
+                "D2-023",
+                "D2-024",
+                "D2-025",
+                "D2-027",
+                "D2-053",
+                "D2-055",
+                "D2-065"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 8,
+                "coverage": 0.7272727272727273,
+                "overall_error": 0.39588005577861146,
+                "retained_error": 0.28870584399565047,
+                "retained_minus_overall": -0.10717421178296099
+              },
+              "effect_ci": {
+                "estimate": -0.10717421178296099,
+                "draws": 2000,
+                "valid": 2000,
+                "undefined": 0,
+                "ci95": [
+                  -0.23031166314869975,
+                  0.0
+                ]
+              },
+              "spearman_error_uncertainty": 0.8272727272727273,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.2887058439956504,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.2887058439956504,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": 0.9285714285714286,
+                  "average_precision": 0.9682539682539681,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.2887058439956504,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.42857142857142855,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.2887058439956504,
+              "expected_failures_found": 1.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.2887058439956504,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": 0.9285714285714286,
+            "average_precision": 0.9682539682539681,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.2887058439956504,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 0.42857142857142855,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 11,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.006397209964763322,
+            "participant_balanced_nll": 0.026913031123481913,
+            "participant_balanced_ece_10_bins": 0.0043235367864555355,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9768732244318181,
+                "mean_predicted_probability": 0.000639866084157262,
+                "observed_target_fraction": 0.0022720043622483756
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.006591796875,
+                "mean_predicted_probability": 0.1541904935280883,
+                "observed_target_fraction": 0.08754208754208753
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.002641157670454546,
+                "mean_predicted_probability": 0.24336945234226579,
+                "observed_target_fraction": 0.24369747899159658
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.002197265625,
+                "mean_predicted_probability": 0.34860038817530925,
+                "observed_target_fraction": 0.23232323232323232
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0014204545454545455,
+                "mean_predicted_probability": 0.4502831557765603,
+                "observed_target_fraction": 0.32812499999999994
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.001531427556818182,
+                "mean_predicted_probability": 0.5537317447040391,
+                "observed_target_fraction": 0.39130434782608686
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0013538707386363635,
+                "mean_predicted_probability": 0.6526543957288149,
+                "observed_target_fraction": 0.4098360655737705
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.001953125,
+                "mean_predicted_probability": 0.7459417845715177,
+                "observed_target_fraction": 0.46590909090909083
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0011763139204545455,
+                "mean_predicted_probability": 0.8557087093029383,
+                "observed_target_fraction": 0.5471698113207547
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.004261363636363636,
+                "mean_predicted_probability": 0.9415954165160655,
+                "observed_target_fraction": 0.8541666666666667
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 11,
+            "temperature": 1.1240816257537563,
+            "participant_balanced_brier": 0.006356685539099605,
+            "participant_balanced_nll": 0.025672088003241778,
+            "participant_balanced_ece_10_bins": 0.004151303539291863,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9757191051136365,
+                "mean_predicted_probability": 0.0009002942451571906,
+                "observed_target_fraction": 0.002206451025885993
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.00537109375,
+                "mean_predicted_probability": 0.15113654105061422,
+                "observed_target_fraction": 0.07438016528925619
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.00439453125,
+                "mean_predicted_probability": 0.23135233632778934,
+                "observed_target_fraction": 0.18686868686868688
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.002729936079545455,
+                "mean_predicted_probability": 0.35017000921588737,
+                "observed_target_fraction": 0.17886178861788612
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0015092329545454545,
+                "mean_predicted_probability": 0.4529562566451922,
+                "observed_target_fraction": 0.3676470588235294
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.001686789772727273,
+                "mean_predicted_probability": 0.5523060502690955,
+                "observed_target_fraction": 0.39473684210526316
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.001531427556818182,
+                "mean_predicted_probability": 0.6523630652863899,
+                "observed_target_fraction": 0.42028985507246364
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0019087357954545455,
+                "mean_predicted_probability": 0.7387587516196376,
+                "observed_target_fraction": 0.46511627906976744
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0012872869318181815,
+                "mean_predicted_probability": 0.8571207372432526,
+                "observed_target_fraction": 0.6379310344827588
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.003861860795454546,
+                "mean_predicted_probability": 0.926037695601993,
+                "observed_target_fraction": 0.8620689655172413
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 0,
+            "mean_difference_ci": null
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 0,
+            "mean_difference_ci": null
+          }
+        }
+      },
+      "dropout": {
+        "spearman_error_uncertainty": 0.8727272727272727,
+        "reference_sensitivity": {
+          "raters": {
+            "single_source_rater": {
+              "n": 11,
+              "participant_ids": [
+                "D2-000",
+                "D2-002",
+                "D2-020",
+                "D2-021",
+                "D2-023",
+                "D2-024",
+                "D2-025",
+                "D2-027",
+                "D2-053",
+                "D2-055",
+                "D2-065"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 8,
+                "coverage": 0.7272727272727273,
+                "overall_error": 0.47481845071416834,
+                "retained_error": 0.3184567379327468,
+                "retained_minus_overall": -0.15636171278142152
+              },
+              "effect_ci": {
+                "estimate": -0.15636171278142152,
+                "draws": 2000,
+                "valid": 2000,
+                "undefined": 0,
+                "ci95": [
+                  -0.3222309690807363,
+                  0.0
+                ]
+              },
+              "spearman_error_uncertainty": 0.8727272727272727,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.3184567379327468,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.3184567379327468,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 1.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": 0.9166666666666666,
+                  "average_precision": 0.975,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.3184567379327468,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.375,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.3184567379327468,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 1.0,
+            "average_precision": 1.0,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.3184567379327468,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 1.0,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": 0.9166666666666666,
+            "average_precision": 0.975,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 3,
+              "achieved_review_fraction": 0.2727272727272727,
+              "retained_n": 8,
+              "retained_risk": 0.3184567379327468,
+              "expected_failures_found": 3.0,
+              "failure_capture_fraction": 0.375,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 11,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.006685304991758571,
+            "participant_balanced_nll": 0.03410998196610419,
+            "participant_balanced_ece_10_bins": 0.004550080732290002,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9860617897727274,
+                "mean_predicted_probability": 0.0007666150542829243,
+                "observed_target_fraction": 0.0035563158368596376
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.0026855468750000004,
+                "mean_predicted_probability": 0.14228580627313328,
+                "observed_target_fraction": 0.256198347107438
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0015980113636363637,
+                "mean_predicted_probability": 0.24417599911491075,
+                "observed_target_fraction": 0.40277777777777773
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0009765625,
+                "mean_predicted_probability": 0.352407841519876,
+                "observed_target_fraction": 0.38636363636363635
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0010875355113636363,
+                "mean_predicted_probability": 0.44952969526758,
+                "observed_target_fraction": 0.4081632653061224
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0009543678977272726,
+                "mean_predicted_probability": 0.5449959760488468,
+                "observed_target_fraction": 0.46511627906976744
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0009099786931818181,
+                "mean_predicted_probability": 0.6520976046236551,
+                "observed_target_fraction": 0.6097560975609756
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.001154119318181818,
+                "mean_predicted_probability": 0.7529158007640107,
+                "observed_target_fraction": 0.5961538461538463
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0009987571022727273,
+                "mean_predicted_probability": 0.8521459367540147,
+                "observed_target_fraction": 0.5555555555555556
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.003573330965909091,
+                "mean_predicted_probability": 0.960713279543456,
+                "observed_target_fraction": 0.8012422360248447
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 11,
+            "temperature": 1.1927196232889619,
+            "participant_balanced_brier": 0.006560898508431192,
+            "participant_balanced_nll": 0.030581247966308213,
+            "participant_balanced_ece_10_bins": 0.003515700753079416,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9841308593749999,
+                "mean_predicted_probability": 0.0013323061188753678,
+                "observed_target_fraction": 0.003292663674702871
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.0038618607954545455,
+                "mean_predicted_probability": 0.14145070480864005,
+                "observed_target_fraction": 0.20689655172413793
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0019087357954545455,
+                "mean_predicted_probability": 0.24738841102910125,
+                "observed_target_fraction": 0.3255813953488372
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0011763139204545455,
+                "mean_predicted_probability": 0.3453085966268494,
+                "observed_target_fraction": 0.43396226415094336
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0013316761363636363,
+                "mean_predicted_probability": 0.448590054614106,
+                "observed_target_fraction": 0.3666666666666666
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0011541193181818182,
+                "mean_predicted_probability": 0.5471732251754904,
+                "observed_target_fraction": 0.4999999999999999
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0010209517045454545,
+                "mean_predicted_probability": 0.6521821030444178,
+                "observed_target_fraction": 0.5434782608695652
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.001242897727272727,
+                "mean_predicted_probability": 0.7472627900147335,
+                "observed_target_fraction": 0.6250000000000001
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0011541193181818182,
+                "mean_predicted_probability": 0.8587016592499286,
+                "observed_target_fraction": 0.6538461538461537
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.003018465909090909,
+                "mean_predicted_probability": 0.9470616919587611,
+                "observed_target_fraction": 0.8088235294117647
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 0,
+            "mean_difference_ci": null
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 0,
+            "mean_difference_ci": null
+          }
+        }
+      }
+    },
+    "paired_method_contrasts": [
+      {
+        "contrast": "ensemble minus deterministic",
+        "paired_participants": 11,
+        "effect_difference_ci": {
+          "estimate": 0.010721826850128457,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.0029567330597819654,
+            0.03220730783032556
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      },
+      {
+        "contrast": "dropout minus deterministic",
+        "paired_participants": 11,
+        "effect_difference_ci": {
+          "estimate": -0.038465674148332074,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.08284088162728988,
+            0.0
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      },
+      {
+        "contrast": "ensemble minus dropout",
+        "paired_participants": 11,
+        "effect_difference_ci": {
+          "estimate": 0.04918750099846053,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            0.0,
+            0.11041419125152897
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      }
+    ]
+  },
+  "external_test": {
+    "partition": "external_test",
+    "methods": {
+      "deterministic": {
+        "threshold": 0.4375477910041809,
+        "policy": {
+          "n": 26,
+          "retained": 4,
+          "coverage": 0.15384615384615385,
+          "overall_error": 0.6553458694657975,
+          "retained_error": 0.5341752181042316,
+          "retained_minus_overall": -0.1211706513615659
+        },
+        "primary_effect_ci": {
+          "estimate": -0.1211706513615659,
+          "draws": 2000,
+          "valid": 1966,
+          "undefined": 34,
+          "ci95": [
+            -0.27695227912394316,
+            0.13058378155233302
+          ]
+        },
+        "aurc": 0.5708383071593788,
+        "risk_coverage": [
+          [
+            0.038461538461538464,
+            0.44925740459568253
+          ],
+          [
+            0.07692307692307693,
+            0.4107946750451121
+          ],
+          [
+            0.11538461538461539,
+            0.4319738640712349
+          ],
+          [
+            0.15384615384615385,
+            0.5341752181042316
+          ],
+          [
+            0.19230769230769232,
+            0.5947608851582561
+          ],
+          [
+            0.23076923076923078,
+            0.5673517347775389
+          ],
+          [
+            0.2692307692307692,
+            0.593943135130045
+          ],
+          [
+            0.3076923076923077,
+            0.5917884071884205
+          ],
+          [
+            0.34615384615384615,
+            0.5821037715502481
+          ],
+          [
+            0.38461538461538464,
+            0.5701385269744926
+          ],
+          [
+            0.4230769230769231,
+            0.5647406131565045
+          ],
+          [
+            0.46153846153846156,
+            0.5690982877860565
+          ],
+          [
+            0.5,
+            0.5697252210030802
+          ],
+          [
+            0.5384615384615384,
+            0.572429134644379
+          ],
+          [
+            0.5769230769230769,
+            0.5802983936125233
+          ],
+          [
+            0.6153846153846154,
+            0.577875104705733
+          ],
+          [
+            0.6538461538461539,
+            0.5815519047888964
+          ],
+          [
+            0.6923076923076923,
+            0.5742865853218032
+          ],
+          [
+            0.7307692307692307,
+            0.5866086968285065
+          ],
+          [
+            0.7692307692307693,
+            0.5940159103211752
+          ],
+          [
+            0.8076923076923077,
+            0.5954469755591193
+          ],
+          [
+            0.8461538461538461,
+            0.6021518116556019
+          ],
+          [
+            0.8846153846153846,
+            0.6163290434411735
+          ],
+          [
+            0.9230769230769231,
+            0.6313477677380988
+          ],
+          [
+            0.9615384615384616,
+            0.6442570435201357
+          ],
+          [
+            1.0,
+            0.6553458694657972
+          ]
+        ],
+        "failure_prevalence": 0.7692307692307693,
+        "failure_auroc": 0.8416666666666667,
+        "failure_average_precision": 0.943253328638054,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 1957,
+          "undefined": 43,
+          "ci95": [
+            -0.29622632194771226,
+            0.015422549010731366
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      },
+      "dropout": {
+        "threshold": 0.388133248640557,
+        "policy": {
+          "n": 26,
+          "retained": 7,
+          "coverage": 0.2692307692307692,
+          "overall_error": 0.7284335882901943,
+          "retained_error": 0.531511197308663,
+          "retained_minus_overall": -0.1969223909815313
+        },
+        "primary_effect_ci": {
+          "estimate": -0.1969223909815313,
+          "draws": 2000,
+          "valid": 2000,
+          "undefined": 0,
+          "ci95": [
+            -0.35548775002540794,
+            -0.054968181529963925
+          ]
+        },
+        "aurc": 0.579295178689721,
+        "risk_coverage": [
+          [
+            0.038461538461538464,
+            0.2621308865876124
+          ],
+          [
+            0.07692307692307693,
+            0.31318707780337995
+          ],
+          [
+            0.11538461538461539,
+            0.3626526558561875
+          ],
+          [
+            0.15384615384615385,
+            0.5130588101890647
+          ],
+          [
+            0.19230769230769232,
+            0.49929291513952484
+          ],
+          [
+            0.23076923076923078,
+            0.5290973313914065
+          ],
+          [
+            0.2692307692307692,
+            0.5315111973086631
+          ],
+          [
+            0.3076923076923077,
+            0.5546574408291839
+          ],
+          [
+            0.34615384615384615,
+            0.5479611178318398
+          ],
+          [
+            0.38461538461538464,
+            0.5666449290002041
+          ],
+          [
+            0.4230769230769231,
+            0.5662462743717697
+          ],
+          [
+            0.46153846153846156,
+            0.582916729378797
+          ],
+          [
+            0.5,
+            0.5830831639222548
+          ],
+          [
+            0.5384615384615384,
+            0.6114316276468132
+          ],
+          [
+            0.5769230769230769,
+            0.6260612862999266
+          ],
+          [
+            0.6153846153846154,
+            0.6226936917679876
+          ],
+          [
+            0.6538461538461539,
+            0.6373241584374165
+          ],
+          [
+            0.6923076923076923,
+            0.6394174636257115
+          ],
+          [
+            0.7307692307692307,
+            0.6462061360844695
+          ],
+          [
+            0.7692307692307693,
+            0.6588784767204199
+          ],
+          [
+            0.8076923076923077,
+            0.6718048662218302
+          ],
+          [
+            0.8461538461538461,
+            0.6846193331870519
+          ],
+          [
+            0.8846153846153846,
+            0.697630012766916
+          ],
+          [
+            0.9230769230769231,
+            0.7068845332523034
+          ],
+          [
+            0.9615384615384616,
+            0.717848942021818
+          ],
+          [
+            1.0,
+            0.7284335882901943
+          ]
+        ],
+        "failure_prevalence": 0.8076923076923077,
+        "failure_auroc": 0.9523809523809523,
+        "failure_average_precision": 0.9887044215092596,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 1834,
+          "undefined": 166,
+          "ci95": [
+            -0.5026009294669439,
+            -0.056377528963898325
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      },
+      "ensemble": {
+        "threshold": 0.4153046539313615,
+        "policy": {
+          "n": 26,
+          "retained": 3,
+          "coverage": 0.11538461538461539,
+          "overall_error": 0.6695133320517985,
+          "retained_error": 0.5060227050585707,
+          "retained_minus_overall": -0.1634906269932278
+        },
+        "primary_effect_ci": {
+          "estimate": -0.1634906269932278,
+          "draws": 2000,
+          "valid": 1914,
+          "undefined": 86,
+          "ci95": [
+            -0.3488315168003798,
+            0.09317731783090318
+          ]
+        },
+        "aurc": 0.5671051053575132,
+        "risk_coverage": [
+          [
+            0.038461538461538464,
+            0.33939564440325676
+          ],
+          [
+            0.07692307692307693,
+            0.5560999364189138
+          ],
+          [
+            0.11538461538461539,
+            0.5060227050585707
+          ],
+          [
+            0.15384615384615385,
+            0.4983149402989754
+          ],
+          [
+            0.19230769230769232,
+            0.513622161347197
+          ],
+          [
+            0.23076923076923078,
+            0.502725328378992
+          ],
+          [
+            0.2692307692307692,
+            0.5412921012358023
+          ],
+          [
+            0.3076923076923077,
+            0.5487401840964666
+          ],
+          [
+            0.34615384615384615,
+            0.5469014878462768
+          ],
+          [
+            0.38461538461538464,
+            0.5401692837974028
+          ],
+          [
+            0.4230769230769231,
+            0.5486265652903256
+          ],
+          [
+            0.46153846153846156,
+            0.5525867203275592
+          ],
+          [
+            0.5,
+            0.5697540569878179
+          ],
+          [
+            0.5384615384615384,
+            0.565295884846415
+          ],
+          [
+            0.5769230769230769,
+            0.5822798856511362
+          ],
+          [
+            0.6153846153846154,
+            0.5803126560082561
+          ],
+          [
+            0.6538461538461539,
+            0.6008591897491664
+          ],
+          [
+            0.6923076923076923,
+            0.6062226537494309
+          ],
+          [
+            0.7307692307692307,
+            0.615977303795889
+          ],
+          [
+            0.7692307692307693,
+            0.6127539072419786
+          ],
+          [
+            0.8076923076923077,
+            0.6060312567513063
+          ],
+          [
+            0.8461538461538461,
+            0.6124025340848355
+          ],
+          [
+            0.8846153846153846,
+            0.6287737333487725
+          ],
+          [
+            0.9230769230769231,
+            0.6433543704216018
+          ],
+          [
+            0.9615384615384616,
+            0.6567049161072002
+          ],
+          [
+            1.0,
+            0.6695133320517985
+          ]
+        ],
+        "failure_prevalence": 0.7692307692307693,
+        "failure_auroc": 0.8,
+        "failure_average_precision": 0.9208266550700763,
+        "scope": "participant mean-reference error; per-rater sensitivity still required",
+        "two_stage_ci": {
+          "draws": 2000,
+          "valid": 1831,
+          "undefined": 169,
+          "ci95": [
+            -0.3606743907006845,
+            0.09760863811679843
+          ],
+          "scope": "resamples calibration and test participants; conditions on trained models"
+        }
+      }
+    },
+    "interpretation": "Technical segmentation error; no diagnostic or clinical-benefit claim",
+    "secondary": {
+      "deterministic": {
+        "spearman_error_uncertainty": 0.610940170940171,
+        "reference_sensitivity": {
+          "raters": {
+            "r1": {
+              "n": 4,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-008"
+              ],
+              "policy": {
+                "n": 4,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.700463910756637,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": 0.8,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.75,
+                  "average_precision": 0.8333333333333333,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.6700820421580606,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.5,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.6700820421580606,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.6700820421580606,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r2": {
+              "n": 11,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-003",
+                "D1-004",
+                "D1-020",
+                "D1-024",
+                "D1-025",
+                "D1-026",
+                "D1-035",
+                "D1-038"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 1,
+                "coverage": 0.09090909090909091,
+                "overall_error": 0.6437315850854165,
+                "retained_error": 0.4621924407392678,
+                "retained_minus_overall": -0.1815391443461487
+              },
+              "effect_ci": {
+                "estimate": -0.1815391443461487,
+                "draws": 2000,
+                "valid": 1309,
+                "undefined": 691,
+                "ci95": [
+                  -0.24961289331016276,
+                  -0.09954282933717655
+                ]
+              },
+              "spearman_error_uncertainty": 0.6818181818181818,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.9166666666666666,
+                  "average_precision": 0.8055555555555556,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.5926463031463838,
+                    "expected_failures_found": 2.0,
+                    "failure_capture_fraction": 0.6666666666666666,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 0.7222222222222222,
+                  "average_precision": 0.9282627865961198,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.5926463031463838,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.3333333333333333,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0000000000000002,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.5926463031463838,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.2727272727272727,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r3": {
+              "n": 22,
+              "participant_ids": [
+                "D1-000",
+                "D1-003",
+                "D1-004",
+                "D1-008",
+                "D1-009",
+                "D1-012",
+                "D1-015",
+                "D1-017",
+                "D1-020",
+                "D1-023",
+                "D1-024",
+                "D1-025",
+                "D1-028",
+                "D1-029",
+                "D1-030",
+                "D1-032",
+                "D1-036",
+                "D1-038",
+                "D1-042",
+                "D1-043",
+                "D1-045",
+                "D1-049"
+              ],
+              "policy": {
+                "n": 22,
+                "retained": 4,
+                "coverage": 0.18181818181818182,
+                "overall_error": 0.6483745919800319,
+                "retained_error": 0.5309414590683353,
+                "retained_minus_overall": -0.11743313291169655
+              },
+              "effect_ci": {
+                "estimate": -0.11743313291169655,
+                "draws": 2000,
+                "valid": 1969,
+                "undefined": 31,
+                "ci95": [
+                  -0.279959799298847,
+                  0.13910004842948442
+                ]
+              },
+              "spearman_error_uncertainty": 0.6205533596837944,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.7053571428571429,
+                  "average_precision": 0.7522843567251463,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5783010983592346,
+                    "expected_failures_found": 4.0,
+                    "failure_capture_fraction": 0.5,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 0.8333333333333334,
+                  "average_precision": 0.9268642906800801,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5783010983592346,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.3125,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 0.9999999999999997,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5783010983592346,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.22727272727272727,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "re3": {
+              "n": 1,
+              "participant_ids": [
+                "D1-026"
+              ],
+              "policy": {
+                "n": 1,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.5958465376576091,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": null,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": null,
+                  "average_precision": null,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.5958465376576091,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": null,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.5958465376576091,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.5958465376576091,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 0.75,
+            "average_precision": 0.7976016374929419,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.5940159103211752,
+              "expected_failures_found": 5.0,
+              "failure_capture_fraction": 0.5,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 0.8416666666666667,
+            "average_precision": 0.943253328638054,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.5940159103211752,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.3,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": null,
+            "average_precision": 0.9999999999999996,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.5940159103211752,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.23076923076923078,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 26,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.012259966251500116,
+            "participant_balanced_nll": 0.08061050978646295,
+            "participant_balanced_ece_10_bins": 0.011765448394759601,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.987492487980769,
+                "mean_predicted_probability": 0.00039272959414075626,
+                "observed_target_fraction": 0.007626183865201022
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.0016995943509615383,
+                "mean_predicted_probability": 0.14522236383916268,
+                "observed_target_fraction": 0.17679558011049734
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.000920222355769231,
+                "mean_predicted_probability": 0.24949900395407967,
+                "observed_target_fraction": 0.28571428571428564
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0008263221153846154,
+                "mean_predicted_probability": 0.3473974073475058,
+                "observed_target_fraction": 0.19318181818181812
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0006291316105769232,
+                "mean_predicted_probability": 0.45094761074478934,
+                "observed_target_fraction": 0.20895522388059695
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0005070612980769231,
+                "mean_predicted_probability": 0.5595005971414072,
+                "observed_target_fraction": 0.22222222222222215
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0006854717548076923,
+                "mean_predicted_probability": 0.6469689819910757,
+                "observed_target_fraction": 0.24657534246575338
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0008451021634615386,
+                "mean_predicted_probability": 0.7529452959696452,
+                "observed_target_fraction": 0.23333333333333325
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.001164362980769231,
+                "mean_predicted_probability": 0.8513015970107047,
+                "observed_target_fraction": 0.29838709677419356
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.005230243389423078,
+                "mean_predicted_probability": 0.9505523396137586,
+                "observed_target_fraction": 0.4290843806104129
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 26,
+            "temperature": 1.5025144855261143,
+            "participant_balanced_brier": 0.011631565911766098,
+            "participant_balanced_nll": 0.05783889117476034,
+            "participant_balanced_ece_10_bins": 0.009219178164309604,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9848351111778847,
+                "mean_predicted_probability": 0.002150017722764513,
+                "observed_target_fraction": 0.007293980797284541
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.0028921274038461544,
+                "mean_predicted_probability": 0.14289623394203307,
+                "observed_target_fraction": 0.13961038961038966
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0016244741586538462,
+                "mean_predicted_probability": 0.2454399052971657,
+                "observed_target_fraction": 0.17341040462427743
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0011925330528846157,
+                "mean_predicted_probability": 0.3485847415418879,
+                "observed_target_fraction": 0.2598425196850393
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0010235126201923082,
+                "mean_predicted_probability": 0.44698478850776024,
+                "observed_target_fraction": 0.20183486238532095
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0008451021634615386,
+                "mean_predicted_probability": 0.5566176890533024,
+                "observed_target_fraction": 0.24444444444444438
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.001023512620192308,
+                "mean_predicted_probability": 0.6519176980135664,
+                "observed_target_fraction": 0.19266055045871555
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.001201923076923077,
+                "mean_predicted_probability": 0.7504352160097909,
+                "observed_target_fraction": 0.32812500000000006
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.005352313701923078,
+                "mean_predicted_probability": 0.8767131878562818,
+                "observed_target_fraction": 0.42456140350877186
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 9.390024038461539e-06,
+                "mean_predicted_probability": 0.9000129482491649,
+                "observed_target_fraction": 0.0
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.008951141414317217,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.04200805752453479,
+                0.02690282751890746
+              ]
+            }
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.033812958408485756,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.056659829006953676,
+                -0.007766883092170413
+              ]
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "spearman_error_uncertainty": 0.6266666666666667,
+        "reference_sensitivity": {
+          "raters": {
+            "r1": {
+              "n": 4,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-008"
+              ],
+              "policy": {
+                "n": 4,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.7575721777140005,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": 0.4,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.7515404225818161,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.3333333333333333,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.7515404225818161,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.7515404225818161,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r2": {
+              "n": 11,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-003",
+                "D1-004",
+                "D1-020",
+                "D1-024",
+                "D1-025",
+                "D1-026",
+                "D1-035",
+                "D1-038"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.6661548550498085,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": 0.33636363636363636,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.75,
+                  "average_precision": 0.6845238095238095,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6419787504421021,
+                    "expected_failures_found": 2.0,
+                    "failure_capture_fraction": 0.5,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 0.5555555555555556,
+                  "average_precision": 0.8412257495590829,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6419787504421021,
+                    "expected_failures_found": 2.0,
+                    "failure_capture_fraction": 0.2222222222222222,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0000000000000002,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6419787504421021,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.2727272727272727,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r3": {
+              "n": 22,
+              "participant_ids": [
+                "D1-000",
+                "D1-003",
+                "D1-004",
+                "D1-008",
+                "D1-009",
+                "D1-012",
+                "D1-015",
+                "D1-017",
+                "D1-020",
+                "D1-023",
+                "D1-024",
+                "D1-025",
+                "D1-028",
+                "D1-029",
+                "D1-030",
+                "D1-032",
+                "D1-036",
+                "D1-038",
+                "D1-042",
+                "D1-043",
+                "D1-045",
+                "D1-049"
+              ],
+              "policy": {
+                "n": 22,
+                "retained": 3,
+                "coverage": 0.13636363636363635,
+                "overall_error": 0.6572889040295362,
+                "retained_error": 0.5060227050585707,
+                "retained_minus_overall": -0.1512661989709655
+              },
+              "effect_ci": {
+                "estimate": -0.1512661989709655,
+                "draws": 2000,
+                "valid": 1910,
+                "undefined": 90,
+                "ci95": [
+                  -0.34909693503872247,
+                  0.11635690901693908
+                ]
+              },
+              "spearman_error_uncertainty": 0.6533032185206098,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.7692307692307693,
+                  "average_precision": 0.8035113035113035,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5770425001614797,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.5555555555555556,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 0.7916666666666666,
+                  "average_precision": 0.9088023088023087,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5770425001614797,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.3125,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 0.9999999999999997,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.5770425001614797,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.22727272727272727,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "re3": {
+              "n": 1,
+              "participant_ids": [
+                "D1-026"
+              ],
+              "policy": {
+                "n": 1,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.6220999503557836,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": null,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": null,
+                  "average_precision": null,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.6220999503557836,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": null,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.6220999503557836,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.6220999503557836,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 0.7696969696969697,
+            "average_precision": 0.7908658008658008,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6127539072419786,
+              "expected_failures_found": 5.0,
+              "failure_capture_fraction": 0.45454545454545453,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 0.8,
+            "average_precision": 0.9208266550700763,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6127539072419786,
+              "expected_failures_found": 5.0,
+              "failure_capture_fraction": 0.25,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": null,
+            "average_precision": 0.9999999999999996,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6127539072419786,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.23076923076923078,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 26,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.010605834598302123,
+            "participant_balanced_nll": 0.06270766321062979,
+            "participant_balanced_ece_10_bins": 0.009209904255299925,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.977313701923077,
+                "mean_predicted_probability": 0.00077464828791145,
+                "observed_target_fraction": 0.006658339738662568
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.00940880408653846,
+                "mean_predicted_probability": 0.16108377639226576,
+                "observed_target_fraction": 0.10479041916167665
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.002845177283653847,
+                "mean_predicted_probability": 0.2383961862955156,
+                "observed_target_fraction": 0.13861386138613857
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.002817007211538462,
+                "mean_predicted_probability": 0.3565963302055995,
+                "observed_target_fraction": 0.17666666666666664
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0016526442307692305,
+                "mean_predicted_probability": 0.4451946768571032,
+                "observed_target_fraction": 0.278409090909091
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0014178936298076925,
+                "mean_predicted_probability": 0.5501779531011518,
+                "observed_target_fraction": 0.31125827814569534
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0009014423076923077,
+                "mean_predicted_probability": 0.6470404298355181,
+                "observed_target_fraction": 0.3645833333333333
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0013991135817307692,
+                "mean_predicted_probability": 0.7540998318851394,
+                "observed_target_fraction": 0.44966442953020136
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0005821814903846155,
+                "mean_predicted_probability": 0.8549210313827758,
+                "observed_target_fraction": 0.48387096774193555
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.0016620342548076925,
+                "mean_predicted_probability": 0.9373529701583129,
+                "observed_target_fraction": 0.559322033898305
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 26,
+            "temperature": 1.1240816257537563,
+            "participant_balanced_brier": 0.010591080065289225,
+            "participant_balanced_nll": 0.05765050322088991,
+            "participant_balanced_ece_10_bins": 0.009042415595312816,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9757080078125,
+                "mean_predicted_probability": 0.0010518116045232213,
+                "observed_target_fraction": 0.006496068675475657
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.006563626802884616,
+                "mean_predicted_probability": 0.15123130518106542,
+                "observed_target_fraction": 0.09585121602288985
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.006929837740384616,
+                "mean_predicted_probability": 0.2277179454836328,
+                "observed_target_fraction": 0.12466124661246614
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0028639573317307695,
+                "mean_predicted_probability": 0.35992506979119404,
+                "observed_target_fraction": 0.17049180327868854
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0019719050480769234,
+                "mean_predicted_probability": 0.4435844855737172,
+                "observed_target_fraction": 0.26666666666666666
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0015211838942307692,
+                "mean_predicted_probability": 0.5480726759619824,
+                "observed_target_fraction": 0.32716049382716056
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.001004732572115385,
+                "mean_predicted_probability": 0.6475698854177111,
+                "observed_target_fraction": 0.3831775700934579
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0013239933894230774,
+                "mean_predicted_probability": 0.7426723091708146,
+                "observed_target_fraction": 0.4397163120567374
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0006666917067307691,
+                "mean_predicted_probability": 0.8564838256360114,
+                "observed_target_fraction": 0.5070422535211269
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.0014460637019230772,
+                "mean_predicted_probability": 0.9218991587583019,
+                "observed_target_fraction": 0.5584415584415584
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.008060240948742086,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.06569953286512331,
+                0.05569813016124746
+              ]
+            }
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.04491506042805585,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.08573098551820625,
+                0.0016414396126161863
+              ]
+            }
+          }
+        }
+      },
+      "dropout": {
+        "spearman_error_uncertainty": 0.7627350427350428,
+        "reference_sensitivity": {
+          "raters": {
+            "r1": {
+              "n": 4,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-008"
+              ],
+              "policy": {
+                "n": 4,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.8450601934660169,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": 0.8,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.6666666666666666,
+                  "average_precision": 0.9166666666666666,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.8004613668928937,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.3333333333333333,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.8004613668928937,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 1,
+                    "achieved_review_fraction": 0.25,
+                    "retained_n": 3,
+                    "retained_risk": 0.8004613668928937,
+                    "expected_failures_found": 1.0,
+                    "failure_capture_fraction": 0.25,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r2": {
+              "n": 11,
+              "participant_ids": [
+                "D1-000",
+                "D1-001",
+                "D1-002",
+                "D1-003",
+                "D1-004",
+                "D1-020",
+                "D1-024",
+                "D1-025",
+                "D1-026",
+                "D1-035",
+                "D1-038"
+              ],
+              "policy": {
+                "n": 11,
+                "retained": 1,
+                "coverage": 0.09090909090909091,
+                "overall_error": 0.7482494199221672,
+                "retained_error": 0.477881734519513,
+                "retained_minus_overall": -0.2703676854026542
+              },
+              "effect_ci": {
+                "estimate": -0.2703676854026542,
+                "draws": 2000,
+                "valid": 1309,
+                "undefined": 691,
+                "ci95": [
+                  -0.34351026233746795,
+                  -0.15609375597645417
+                ]
+              },
+              "spearman_error_uncertainty": 0.6545454545454545,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.9333333333333333,
+                  "average_precision": 0.9484126984126984,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6908747484273955,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.5,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 1.0,
+                  "average_precision": 0.9999999999999999,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6908747484273955,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.3,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0000000000000002,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 3,
+                    "achieved_review_fraction": 0.2727272727272727,
+                    "retained_n": 8,
+                    "retained_risk": 0.6908747484273955,
+                    "expected_failures_found": 3.0,
+                    "failure_capture_fraction": 0.2727272727272727,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "r3": {
+              "n": 22,
+              "participant_ids": [
+                "D1-000",
+                "D1-003",
+                "D1-004",
+                "D1-008",
+                "D1-009",
+                "D1-012",
+                "D1-015",
+                "D1-017",
+                "D1-020",
+                "D1-023",
+                "D1-024",
+                "D1-025",
+                "D1-028",
+                "D1-029",
+                "D1-030",
+                "D1-032",
+                "D1-036",
+                "D1-038",
+                "D1-042",
+                "D1-043",
+                "D1-045",
+                "D1-049"
+              ],
+              "policy": {
+                "n": 22,
+                "retained": 7,
+                "coverage": 0.3181818181818182,
+                "overall_error": 0.7114585876894961,
+                "retained_error": 0.5291829226575616,
+                "retained_minus_overall": -0.1822756650319345
+              },
+              "effect_ci": {
+                "estimate": -0.1822756650319345,
+                "draws": 2000,
+                "valid": 1999,
+                "undefined": 1,
+                "ci95": [
+                  -0.3313507647066716,
+                  -0.03699291801260294
+                ]
+              },
+              "spearman_error_uncertainty": 0.769621682665161,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": 0.8760330578512396,
+                  "average_precision": 0.9060327232576038,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.6365664796922267,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.45454545454545453,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": 0.9411764705882353,
+                  "average_precision": 0.9827498027074608,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.6365664796922267,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.29411764705882354,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": 1.0,
+                  "average_precision": 1.0000000000000002,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 5,
+                    "achieved_review_fraction": 0.22727272727272727,
+                    "retained_n": 17,
+                    "retained_risk": 0.6365664796922267,
+                    "expected_failures_found": 5.0,
+                    "failure_capture_fraction": 0.23809523809523808,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            },
+            "re3": {
+              "n": 1,
+              "participant_ids": [
+                "D1-026"
+              ],
+              "policy": {
+                "n": 1,
+                "retained": 0,
+                "coverage": 0.0,
+                "overall_error": 0.8322229820652534,
+                "retained_error": null,
+                "retained_minus_overall": null
+              },
+              "effect_ci": {
+                "estimate": null,
+                "draws": 2000,
+                "valid": 0,
+                "undefined": 2000,
+                "ci95": null
+              },
+              "spearman_error_uncertainty": null,
+              "failure_sensitivity": {
+                "0.3": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.8322229820652534,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.5": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.8322229820652534,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                },
+                "0.7": {
+                  "auroc": null,
+                  "average_precision": 1.0,
+                  "fixed_review_budget": {
+                    "requested_review_fraction": 0.2,
+                    "reviewed_n": 0,
+                    "achieved_review_fraction": 0.0,
+                    "retained_n": 1,
+                    "retained_risk": 0.8322229820652534,
+                    "expected_failures_found": 0.0,
+                    "failure_capture_fraction": 0.0,
+                    "tie_rule": "expected performance under uniform random ordering within exact score ties"
+                  }
+                }
+              }
+            }
+          },
+          "limitation": "Rater subsets may differ; do not interpret unpaired rater differences as annotation effects"
+        },
+        "failure_sensitivity": {
+          "0.3": {
+            "auroc": 0.8484848484848485,
+            "average_precision": 0.9022139386764505,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6588784767204199,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.4,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.5": {
+            "auroc": 0.9523809523809523,
+            "average_precision": 0.9887044215092596,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6588784767204199,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.2857142857142857,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          },
+          "0.7": {
+            "auroc": 1.0,
+            "average_precision": 1.0000000000000002,
+            "fixed_review_budget": {
+              "requested_review_fraction": 0.2,
+              "reviewed_n": 6,
+              "achieved_review_fraction": 0.23076923076923078,
+              "retained_n": 20,
+              "retained_risk": 0.6588784767204199,
+              "expected_failures_found": 6.0,
+              "failure_capture_fraction": 0.24,
+              "tie_rule": "expected performance under uniform random ordering within exact score ties"
+            }
+          }
+        },
+        "probability_calibration": {
+          "raw": {
+            "n_participants": 26,
+            "temperature": 1.0,
+            "participant_balanced_brier": 0.009866922422282993,
+            "participant_balanced_nll": 0.0686789809845474,
+            "participant_balanced_ece_10_bins": 0.007954565471552781,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9902249849759615,
+                "mean_predicted_probability": 0.0009520957985238098,
+                "observed_target_fraction": 0.007718932245981699
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.003032977764423078,
+                "mean_predicted_probability": 0.14207516721343105,
+                "observed_target_fraction": 0.25077399380804954
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0016244741586538462,
+                "mean_predicted_probability": 0.24728450962918347,
+                "observed_target_fraction": 0.31791907514450873
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.0009483924278846156,
+                "mean_predicted_probability": 0.34668561639172013,
+                "observed_target_fraction": 0.32673267326732663
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.0006948617788461539,
+                "mean_predicted_probability": 0.44922385062720316,
+                "observed_target_fraction": 0.4189189189189189
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.0006385216346153846,
+                "mean_predicted_probability": 0.5472496747970581,
+                "observed_target_fraction": 0.4411764705882352
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0006291316105769232,
+                "mean_predicted_probability": 0.651977950957284,
+                "observed_target_fraction": 0.46268656716417916
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0005915715144230769,
+                "mean_predicted_probability": 0.7482747908622499,
+                "observed_target_fraction": 0.4920634920634922
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.00041316105769230774,
+                "mean_predicted_probability": 0.8549643863331188,
+                "observed_target_fraction": 0.659090909090909
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.001201923076923077,
+                "mean_predicted_probability": 0.9553914722055199,
+                "observed_target_fraction": 0.6640625
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          },
+          "temperature_scaled": {
+            "n_participants": 26,
+            "temperature": 1.1927196232889619,
+            "participant_balanced_brier": 0.00974764407361043,
+            "participant_balanced_nll": 0.05952930727307151,
+            "participant_balanced_ece_10_bins": 0.006693201110153825,
+            "reliability_bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.1,
+                "weight": 0.9883939302884616,
+                "mean_predicted_probability": 0.0017069382025938988,
+                "observed_target_fraction": 0.007362720881626449
+              },
+              {
+                "lower": 0.1,
+                "upper": 0.2,
+                "weight": 0.004000150240384616,
+                "mean_predicted_probability": 0.14414199600598573,
+                "observed_target_fraction": 0.22300469483568078
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.3,
+                "weight": 0.0019906850961538465,
+                "mean_predicted_probability": 0.24591242739602615,
+                "observed_target_fraction": 0.27830188679245277
+              },
+              {
+                "lower": 0.3,
+                "upper": 0.4,
+                "weight": 0.001267653245192308,
+                "mean_predicted_probability": 0.3431339729829763,
+                "observed_target_fraction": 0.3481481481481481
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.5,
+                "weight": 0.000873272235576923,
+                "mean_predicted_probability": 0.4469151749828832,
+                "observed_target_fraction": 0.40860215053763443
+              },
+              {
+                "lower": 0.5,
+                "upper": 0.6,
+                "weight": 0.000732421875,
+                "mean_predicted_probability": 0.5461485944988415,
+                "observed_target_fraction": 0.4358974358974359
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.7,
+                "weight": 0.0007605919471153845,
+                "mean_predicted_probability": 0.6497254208907308,
+                "observed_target_fraction": 0.49382716049382724
+              },
+              {
+                "lower": 0.7,
+                "upper": 0.8,
+                "weight": 0.0004788912259615386,
+                "mean_predicted_probability": 0.7441892838688225,
+                "observed_target_fraction": 0.49019607843137236
+              },
+              {
+                "lower": 0.8,
+                "upper": 0.9,
+                "weight": 0.0005540114182692309,
+                "mean_predicted_probability": 0.8562064419418224,
+                "observed_target_fraction": 0.6440677966101693
+              },
+              {
+                "lower": 0.9,
+                "upper": 1.0,
+                "weight": 0.0009483924278846153,
+                "mean_predicted_probability": 0.9413086891370339,
+                "observed_target_fraction": 0.6831683168316833
+              }
+            ],
+            "scope": "Target probabilities within sampled image-derived region; not failure-detection quality"
+          }
+        },
+        "empty_prediction_n": 0,
+        "both_empty_member_pairs": 0,
+        "expert_disagreement": {
+          "union_plus_5mm": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.019265524365685203,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.0636790038340471,
+                0.029515296931971156
+              ]
+            }
+          },
+          "boundary_2mm_sensitivity": {
+            "n": 11,
+            "mean_difference_ci": {
+              "estimate": -0.05067048662088134,
+              "draws": 2000,
+              "valid": 2000,
+              "undefined": 0,
+              "ci95": [
+                -0.08631395914337851,
+                -0.016574744414538177
+              ]
+            }
+          }
+        }
+      }
+    },
+    "paired_method_contrasts": [
+      {
+        "contrast": "ensemble minus deterministic",
+        "paired_participants": 26,
+        "effect_difference_ci": {
+          "estimate": -0.0423199756316619,
+          "draws": 2000,
+          "valid": 1914,
+          "undefined": 86,
+          "ci95": [
+            -0.09851849855508249,
+            0.1050720187100412
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      },
+      {
+        "contrast": "dropout minus deterministic",
+        "paired_participants": 26,
+        "effect_difference_ci": {
+          "estimate": -0.0757517396199654,
+          "draws": 2000,
+          "valid": 1966,
+          "undefined": 34,
+          "ci95": [
+            -0.30979767641987666,
+            0.13235713797197507
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      },
+      {
+        "contrast": "ensemble minus dropout",
+        "paired_participants": 26,
+        "effect_difference_ci": {
+          "estimate": 0.0334317639883035,
+          "draws": 2000,
+          "valid": 1914,
+          "undefined": 86,
+          "ci95": [
+            -0.21138511609990265,
+            0.29668845227220864
+          ]
+        },
+        "limitation": "Policies can retain different fractions and use different predictions; report both coverages"
+      }
+    ]
+  },
+  "transport": {
+    "deterministic": {
+      "external_minus_internal_effect": -0.003274612728476456,
+      "ci95": [
+        -0.198880668098141,
+        0.2515874876337783
+      ],
+      "valid_draws": 1977,
+      "undefined_draws": 23,
+      "scope": "Independent cohort participant bootstrap; frozen calibration threshold and trained models"
+    },
+    "ensemble": {
+      "external_minus_internal_effect": -0.05631641521026681,
+      "ci95": [
+        -0.27736429164813364,
+        0.22539327109897273
+      ],
+      "valid_draws": 1924,
+      "undefined_draws": 76,
+      "scope": "Independent cohort participant bootstrap; frozen calibration threshold and trained models"
+    },
+    "dropout": {
+      "external_minus_internal_effect": -0.04056067820010978,
+      "ci95": [
+        -0.2442626101013801,
+        0.17206462985622434
+      ],
+      "valid_draws": 2000,
+      "undefined_draws": 0,
+      "scope": "Independent cohort participant bootstrap; frozen calibration threshold and trained models"
+    }
+  },
+  "provenance": {
+    "code_freeze_sha256": "055e18bca1d9745faaa5d5a97a4c3a9c1cfb555d0c135ab1ed60807b9a4d1e00",
+    "temperatures_sha256": "8cc5f743dfd41c986841bbad611bb661385c0007ccb06ee6fbd6742cdd6a2879",
+    "interpretation": "Technical retrospective segmentation study. No diagnosis, clinician trust or clinical benefit measured."
+  }
+}

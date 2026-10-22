@@ -1,0 +1,49 @@
+{
+  "training_run": "checkpoints",
+  "manifest_sha256": "6f2aee9ea487fd3a110f30e97f749cf3468b00572bef2dbc505397a26dd9d79f",
+  "splits_sha256": "3640c5b2435ffcb9c33e7caa4ae9f7b62c46120c90c1f44e2d42fbc4fda5cfee",
+  "checkpoints": {
+    "deterministic": [
+      {
+        "path": "checkpoints/seed_61901/best_epoch_020.pt",
+        "sha256": "6b1a21c351b092e112f250575e7908de42c5cbb0a30846be55091bc1253164fe"
+      }
+    ],
+    "ensemble": [
+      {
+        "path": "checkpoints/seed_61901/best_epoch_020.pt",
+        "sha256": "6b1a21c351b092e112f250575e7908de42c5cbb0a30846be55091bc1253164fe"
+      },
+      {
+        "path": "checkpoints/seed_61902/best_epoch_019.pt",
+        "sha256": "6b51b39c5450300249eb0a5f1fba615538c0827a59efcbbb8224a974b8ec1e77"
+      },
+      {
+        "path": "checkpoints/seed_61903/best_epoch_015.pt",
+        "sha256": "6f438e7437ebe21509b0c6d6119ed7aab38837de3b0bc861d2621dfd0458ad7a"
+      },
+      {
+        "path": "checkpoints/seed_61904/best_epoch_025.pt",
+        "sha256": "569eab00504f8aa07af829d738de93ef5c5e9848a1d2e8983659766423b5a3ae"
+      },
+      {
+        "path": "checkpoints/seed_61905/best_epoch_018.pt",
+        "sha256": "e3fb348e154b5264fa4f3b5b3dfd044a2bfad6c331c6c1b082e93fef37e17cca"
+      }
+    ],
+    "dropout": [
+      {
+        "path": "checkpoints/seed_61911/best_epoch_045.pt",
+        "sha256": "d39f90e0ea6314a76bdbcc952e58a9af4462ad4e4de69c0fba2e8e3f5fbc0090"
+      }
+    ]
+  },
+  "review_quantile": 0.8,
+  "dropout_passes": 30,
+  "seed": 61930,
+  "segmentation_threshold": 0.5,
+  "inference_device_policy": "MPS if available in this execution context else CPU",
+  "primary_effect": "retained minus overall mean participant 1-Dice; mean across compatible references",
+  "primary_bootstrap_draws": 2000,
+  "test_parameters_tuned": false
+}

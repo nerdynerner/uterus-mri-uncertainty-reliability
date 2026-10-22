@@ -1,0 +1,40 @@
+{
+  "methods": {
+    "deterministic": {
+      "temperature": 1.5025144855261143,
+      "n_calibration_participants": 8,
+      "temperature_bounds": [
+        0.05,
+        20.0
+      ],
+      "before_participant_balanced_nll": 0.0280172935126572,
+      "after_participant_balanced_nll": 0.023733041299281478,
+      "scope": "Source calibration fit only; preserves 0.5 segmentation threshold; no conformal guarantee"
+    },
+    "ensemble": {
+      "temperature": 1.1240816257537563,
+      "n_calibration_participants": 8,
+      "temperature_bounds": [
+        0.05,
+        20.0
+      ],
+      "before_participant_balanced_nll": 0.01843776478729564,
+      "after_participant_balanced_nll": 0.018244955064954785,
+      "scope": "Source calibration fit only; preserves 0.5 segmentation threshold; no conformal guarantee"
+    },
+    "dropout": {
+      "temperature": 1.1927196232889619,
+      "n_calibration_participants": 8,
+      "temperature_bounds": [
+        0.05,
+        20.0
+      ],
+      "before_participant_balanced_nll": 0.01696671196567157,
+      "after_participant_balanced_nll": 0.016466219779518378,
+      "scope": "Source calibration fit only; preserves 0.5 segmentation threshold; no conformal guarantee"
+    }
+  },
+  "calibration_scores_sha256": "0dc5cb0be075c477313596a00e629451ef0ae6e69006965e1510c89167e6cb2b",
+  "sampling": "4096 image-nonzero voxels per participant; ID-seeded; equal participant weight",
+  "code_sha256": "d1f31eff4f76947bbb8eaeff2a2af9c9c702054f2a7ab2d05eb2f15191f1a38c"
+}

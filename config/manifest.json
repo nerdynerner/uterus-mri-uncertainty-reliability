@@ -1,0 +1,2172 @@
+{
+  "status": "Analytical cohort for the manuscript-associated analysis",
+  "cases": [
+    {
+      "participant": "D1-000",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-000/D1-000_T2.nii.gz",
+      "image_sha256": "facc3fd27d47e60eb9742e9142065a2910fd1bb7f0edd1dec93ba7a95f0b4c42",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-000/D1-000_ut_r1.nii.gz",
+          "sha256": "12a8b154de0fb716d9a585b5faa1cd08d6f45900f4dffb763379c0283068cb4b",
+          "rater": "r1"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-000/D1-000_ut_r2.nii.gz",
+          "sha256": "1cf8e9154ad4c94a32ccb84f682477a2d1218ec8e3ee616ef97bb4f0402d72c1",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-000/D1-000_ut_r3.nii.gz",
+          "sha256": "42ef635ed749b0dcbf9f5ebaf74ed9b965e68d585ae970216e7e77a4af80b2e0",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r1"
+    },
+    {
+      "participant": "D1-001",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-001/D1-001_T2.nii.gz",
+      "image_sha256": "7ec530d35eaed2233d03a39eed0f47b2798678054e7cd860314c51e10be81c48",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-001/D1-001_ut_r1.nii.gz",
+          "sha256": "5fbd550fdc5829c18c8d3a2b80b17ad3c6d6a50fa1dfd79090a18ef70f609ba5",
+          "rater": "r1"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-001/D1-001_ut_r2.nii.gz",
+          "sha256": "76bc9442b459a3416d44fccefeb338d127f33272da2162c9034efa24edbd3a7e",
+          "rater": "r2"
+        }
+      ],
+      "training_rater": "r1"
+    },
+    {
+      "participant": "D1-002",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-002/D1-002_T2.nii.gz",
+      "image_sha256": "8da8b35616c8a86946d949ba429f3cddeb746baa04904f95ca6f38cec1a82ba2",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-002/D1-002_ut_r1.nii.gz",
+          "sha256": "d7b0834c31b435722a9e70fa4f3ce06eddd0a5868d1674c91e3613bfddf6abad",
+          "rater": "r1"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-002/D1-002_ut_r2.nii.gz",
+          "sha256": "a77a6615167e6d427530cb6da8d9fde23a89bf2ae376b75727dd724edb45d750",
+          "rater": "r2"
+        }
+      ],
+      "training_rater": "r1"
+    },
+    {
+      "participant": "D1-003",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-003/D1-003_T2.nii.gz",
+      "image_sha256": "2b914e77d1ff828a6d7d756cc827e38eef807bfa52d99227317d53f1eb704dd7",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-003/D1-003_ut_r2.nii.gz",
+          "sha256": "b4fd2760699b19f42054a7de49a97641db2ca017efab2fd366319e32ff2e4d9d",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-003/D1-003_ut_r3.nii.gz",
+          "sha256": "abe31af0652caedeec19d75c5c7265b822be6f459f840101f37def89fbf5df65",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-004",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-004/D1-004_T2.nii.gz",
+      "image_sha256": "b83cb1bc6233577e5bd003d871094ff52337a9ebf2ac80bdf63064db3b08287e",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-004/D1-004_ut_r2.nii.gz",
+          "sha256": "bd65c60faf0b1d82ee5543ca3444640d0a4e9e307586f614352b8944d146d06d",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-004/D1-004_ut_r3.nii.gz",
+          "sha256": "7402778b4d03d0da1e18d460ddb60f436d412cf0a658efdc0c7a3f5b17ecb567",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-008",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-008/D1-008_T2.nii.gz",
+      "image_sha256": "b04f967d41f151b91a94d36afb5772674b811a0879e2406d1181e50ae65a4c5e",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-008/D1-008_ut_r1.nii.gz",
+          "sha256": "87d9835fa1a9c98c3143b8c27d0d0f790f9c5199a98f0a0a5d9a8a5631a41e00",
+          "rater": "r1"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-008/D1-008_ut_r3.nii.gz",
+          "sha256": "5976d6828831a9a1577cc46bdf74a13d3531d082f122565e61dd0f5c6072bf64",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r1"
+    },
+    {
+      "participant": "D1-009",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-009/D1-009_T2.nii.gz",
+      "image_sha256": "bf81d07c7a26177b4341b4310ac8941def51168e701aab5025d753353d76f9c8",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-009/D1-009_ut_r3.nii.gz",
+          "sha256": "7bd12edf6c6cd4ce2680243ba23d99a7efdcccfa0dcc5a707613825f7a026ceb",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-012",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-012/D1-012_T2.nii.gz",
+      "image_sha256": "01ab2dc6b4455ef0a324118e87a93a07f5072c6e7b54956ea14afe5395648118",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-012/D1-012_ut_r3.nii.gz",
+          "sha256": "d255b4a6728c50956661b2f14409fa8beab65a39ab48f977e1aed3b5c9ddfd60",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-015",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-015/D1-015_T2.nii.gz",
+      "image_sha256": "0bbef495af9c0c3be897255a5a37054c03809cd1237031d966cee5afbebef289",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-015/D1-015_ut_r3.nii.gz",
+          "sha256": "2cd279fd3f6a2bd11415ad92a21db012b93759c0fe277687485a4d82cc18c6ff",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-017",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-017/D1-017_T2.nii.gz",
+      "image_sha256": "a212edcbde464e855164ddba70604efb9a075ebc14c8d36c16ea4ec049cd9ebb",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-017/D1-017_ut_r3.nii.gz",
+          "sha256": "ccd29e477242af2fd90962aaf2dd6e5f0eb23a6594b6e7a50f4e97ad560d40bf",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-020",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-020/D1-020_T2.nii.gz",
+      "image_sha256": "42c6ee959786cbf71f049bd79045bc057720eca31d63d04cb104d0097c983a30",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-020/D1-020_ut_r2.nii.gz",
+          "sha256": "282b186b45ab4d3369835f8bbb7d204c2e2c3a54ae9fe3555ee8bb1a9d90db91",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-020/D1-020_ut_r3.nii.gz",
+          "sha256": "0085008a5b89837c2788bbe4776113cca29886322f919e530e164f5dde25a82b",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-023",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-023/D1-023_T2.nii.gz",
+      "image_sha256": "d46d38e564ab24175ff7ba442e03366bc7588a3df6e4acd972808cc61d216fd0",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-023/D1-023_ut_r3.nii.gz",
+          "sha256": "4d5d3391af6a68e75977714282a2794cb11d870f1e31f77d1f705b01a4542860",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-024",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-024/D1-024_T2.nii.gz",
+      "image_sha256": "4b8734e41e4ccae14a372ebcfade870a36e99183b3e6eae5b058ad7177895057",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-024/D1-024_ut_r2.nii.gz",
+          "sha256": "8646c1ef05cb6295156b2ef0938e16a5761a7aaa0bb208fd722c89535f19c963",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-024/D1-024_ut_r3.nii.gz",
+          "sha256": "140692c3e34844da6cf373248ad294181ca345a745fbd341d830fb13785faa42",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-025",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-025/D1-025_T2.nii.gz",
+      "image_sha256": "e318daba11ccdde3ed615d5d308e22c86678964619ec35021c9a798b5e696a29",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-025/D1-025_ut_r2.nii.gz",
+          "sha256": "6d1535e37eddef834f9be960892ea10efaf31921fa4d8be401e16a4ec48df0da",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-025/D1-025_ut_r3.nii.gz",
+          "sha256": "58d9ce1762e685169189f17f57d7ff75a5f9a238f8da2f1622efb619dc233820",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-026",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-026/D1-026_T2.nii.gz",
+      "image_sha256": "f089de630cbbc93cb2ffd0ef35c5f3fc87842da68baab12a43abf502154fd47f",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-026/D1-026_ut_r2.nii.gz",
+          "sha256": "286a02428b936c1ede46ac516aebe34146d96e75fb3ca27868be43c6b6f0cceb",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-026/D1-026_ut_re3.nii.gz",
+          "sha256": "9f4acd71a073d185dfe1921a3de9b8444751af3c02fde2c972ba8057e3f6891b",
+          "rater": "re3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-028",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-028/D1-028_T2.nii.gz",
+      "image_sha256": "2b2297cf4973ce142c3a4007f199c505b12b6fb209397e5ce78fe5a5be9c6d0f",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-028/D1-028_ut_r3.nii.gz",
+          "sha256": "9d8e5b7350da9a06d6e0746cd2bad809cf82f712c4d9d519e68bab1dfbc1941d",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-029",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-029/D1-029_T2.nii.gz",
+      "image_sha256": "4dde39e21fa26c07ee5f2058ec27bc30e67e5ca3142a105aba03ff0c39420568",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-029/D1-029_ut_r3.nii.gz",
+          "sha256": "051a6a12638319567fc9af258c041ed87df21841278c4320b9d6a03fb5a9f89d",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-030",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-030/D1-030_T2.nii.gz",
+      "image_sha256": "ccd625969ed3f9bf0a59c8528cae115bfcb0dd76ce2a32bdfede7f8bd6c2f742",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-030/D1-030_ut_r3.nii.gz",
+          "sha256": "8baeb704c85a1e02aaa8885047d84d81f5e957e24716af53436051e0db51a093",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-032",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-032/D1-032_T2.nii.gz",
+      "image_sha256": "27aae3cac69137985e6872009233583a996e69d51f8c6b8d03831e8154edf48f",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-032/D1-032_ut_r3.nii.gz",
+          "sha256": "81a95b454a861a07a5ab651ac833071e10ad49531d7f14436cb7b5d13889c6c7",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-035",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-035/D1-035_T2.nii.gz",
+      "image_sha256": "09cc6e76c753bb970523397ff688645d067974e3dcfdfd05f58ca42e0fe49d64",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-035/D1-035_ut_r2.nii.gz",
+          "sha256": "0b1090b5f30aa381e2b3a724eae768ce7e21a6913372bcb8d5362e765da77c8d",
+          "rater": "r2"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-036",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-036/D1-036_T2.nii.gz",
+      "image_sha256": "3f727c19fd30cf4bef91ee9a7ca99be41bb774afdfced3424d3d918f11ed4dfb",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-036/D1-036_ut_r3.nii.gz",
+          "sha256": "b24fc9fe9d92d6eadfed422e9df1888409296359e21971e5234f36bf84340a6e",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-038",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-038/D1-038_T2.nii.gz",
+      "image_sha256": "64c8e908029a159be4117b21104ce5b4fc6f6ee29d3ad9a1cb76af711c2c42ef",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-038/D1-038_ut_r2.nii.gz",
+          "sha256": "c736918df8aed6daf2e0133cbfd60141f9de99060e906cde36691e3e273e48bc",
+          "rater": "r2"
+        },
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-038/D1-038_ut_r3.nii.gz",
+          "sha256": "00758edd8c3f1116952f9a70ae8d980153cbf0092e70b98d4f022e799b1a4ccf",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r2"
+    },
+    {
+      "participant": "D1-042",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-042/D1-042_T2.nii.gz",
+      "image_sha256": "6999358f8150e436fdcf9f0a2b49e6b155df19ea1b308af28fe0ded38af85f8b",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-042/D1-042_ut_r3.nii.gz",
+          "sha256": "176924ed6442b987022ab539881ba0895df4081431c53459e48589676372271e",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-043",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-043/D1-043_T2.nii.gz",
+      "image_sha256": "6e2a99931dbf30e16c144e53672a1eab1e3ca91b6ff07926adacffa2377ae28c",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-043/D1-043_ut_r3.nii.gz",
+          "sha256": "e4d49eb65f4482d83f4f1829d20ee63cc95789cf1190ef07c9b3c68b3e67a200",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-045",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-045/D1-045_T2.nii.gz",
+      "image_sha256": "d486fa350035b65afedf099e0fc366d074f877915d4ef18af8e26523e2adb3a0",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-045/D1-045_ut_r3.nii.gz",
+          "sha256": "6ab6f3d07fab9602db3d0643f552255be3975c2f71a940935dfde9f6b644b0dd",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D1-049",
+      "cohort": "D1",
+      "image": "data/original_v2/UT-EndoMRI/D1_MHS/D1-049/D1-049_T2.nii.gz",
+      "image_sha256": "f8f1e4e1c46659986524457fdb7cfbeefab2d99c030614b88ae975212d775b15",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D1_MHS/D1-049/D1-049_ut_r3.nii.gz",
+          "sha256": "ed05d4fe8158e4aa901c114a71b5416152db79fd285573f9c5ef1a9552cea800",
+          "rater": "r3"
+        }
+      ],
+      "training_rater": "r3"
+    },
+    {
+      "participant": "D2-000",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-000/D2-000_T2.nii.gz",
+      "image_sha256": "d2ce48985aa42731324d809260100e7077e4215ef44da188101fed4c873c7282",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-000/D2-000_ut.nii.gz",
+          "sha256": "c2ade4a2b2a0217c7ab1674576d8c56bfb608d69aaae75489a1591e6ede6d550",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-001",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-001/D2-001_T2FS.nii.gz",
+      "image_sha256": "10e3623e38d64df07b1d2b6812c1d7c0bc7b5d6a19b352aafa610b5379b8103c",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-001/D2-001_ut.nii.gz",
+          "sha256": "b4a3af59113d4d4cc0841331aefee936660790c673c94a4389fd8c82282cee1c",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-002",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-002/D2-002_T2.nii.gz",
+      "image_sha256": "8f025153984da05b38830adeb9fc2250cd688b68c6938e7e8fc484650ac6119a",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-002/D2-002_ut.nii.gz",
+          "sha256": "d3cc5d3cf958f26db50bd88daf60286d8a713ca7c033cd47d3a7939b9cf3eb66",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-003",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-003/D2-003_T2.nii.gz",
+      "image_sha256": "d0f67a9a7de810c199ed2efab44e862cb361ec99c50e342bfe4bcba3c7734e53",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-003/D2-003_ut.nii.gz",
+          "sha256": "78a05aeb8551aecfca3e0f6c0ab2130b8f8fd0a4ca146b298bd842a7961bbea8",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-004",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-004/D2-004_T2FS.nii.gz",
+      "image_sha256": "f93c1954f0fc9662026d3b55c8b980144d03f4a1d8d9ce4681a862d9b0f97687",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-004/D2-004_ut.nii.gz",
+          "sha256": "88b301e3725c5876d1ee0fd6d0d0a569c31a5650f29c0d34b5aacf348bc81979",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-005",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-005/D2-005_T2FS.nii.gz",
+      "image_sha256": "84a78771d1e499d3b4dd1fb89d738559ca4e160d1c37b3ada656306f9e85ee22",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-005/D2-005_ut.nii.gz",
+          "sha256": "63008c06bff477bf8e764eec9248990705a9323b9a0a2da47307c7659a0c181d",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-006",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-006/D2-006_T2FS.nii.gz",
+      "image_sha256": "b62a0622a25039ab21bc081ac832b1e1e2316519848aa80360bbec54e6b2df42",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-006/D2-006_ut.nii.gz",
+          "sha256": "fc2281ef62cbbf1377b2f8b796d517bf9b4bc2d2d11554598ea7cdfbfbbbb88e",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-011",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-011/D2-011_T2FS.nii.gz",
+      "image_sha256": "eafa28a8a5a66bff1f87c0b59f8b980b36811379fd9dca4055e02d7ab2ce49cc",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-011/D2-011_ut.nii.gz",
+          "sha256": "19aff9002db2b07984a871e2916eb95a55b8fb7af0c5d79139f552caa1071b2d",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-012",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-012/D2-012_T2FS.nii.gz",
+      "image_sha256": "0cefc899226a45f307038db50d2e0ad8ab1f1df3b58d57f7f4212bdac44e0fbb",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-012/D2-012_ut.nii.gz",
+          "sha256": "e7e476e76f166ca7af0896a96c8d207c81ca730406357d53f50fc52862b87e59",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-013",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-013/D2-013_T2FS.nii.gz",
+      "image_sha256": "a1f0e1e24f9fc6b645809c2458d8106689a172bc81c83ab118a1ca3ce6d164f9",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-013/D2-013_ut.nii.gz",
+          "sha256": "6530d7ac9448dce12e9d110261affddbea0b165c12d24e5eaa8a2e2e46995081",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-014",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-014/D2-014_T2FS.nii.gz",
+      "image_sha256": "09dc7113f290da97531cf79a4b7f656163b753acc7bb03c4992e95f0aad6166f",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-014/D2-014_ut.nii.gz",
+          "sha256": "8290306d88b8e78966cd87c599798b906153a81d0284f89715be8e824c7fd77b",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-015",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-015/D2-015_T2FS.nii.gz",
+      "image_sha256": "397de6e204a0ba7927647b6adab4c21dfbea8b851a608bcebb9f7caa9804e3ce",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-015/D2-015_ut.nii.gz",
+          "sha256": "cc6844e91f99848060dd68c6690f1e86b0e13159984e51190e4e2067ab9c7433",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-016",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-016/D2-016_T2FS.nii.gz",
+      "image_sha256": "dcf0ed6dc4c3e5c712bd7d6e3116b3de1dca86b3fe96d3cfd51cfd78c5372741",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-016/D2-016_ut.nii.gz",
+          "sha256": "2d7e0ef611fb5e526356d07fd414b72a149679a1471c7be7dd7d6aee058ee2a4",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-017",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-017/D2-017_T2FS.nii.gz",
+      "image_sha256": "255fff67f5ef3846c6f558e705d759d21fae51e79afd811813506b979fddf946",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-017/D2-017_ut.nii.gz",
+          "sha256": "aa37ab0186e3d8ff1c33fe44ad61f342ff5a484a64352a6a78dae41d85127bb4",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-018",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-018/D2-018_T2FS.nii.gz",
+      "image_sha256": "2464f9bc94de62a8a02453bd28c44c69697f2394a6f1bb805bed08b6cdbfbc2b",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-018/D2-018_ut.nii.gz",
+          "sha256": "21d72b2b5252cfa29915aa67221aa125764afc5a29c6631031ba5a5a5ca9549c",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-019",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-019/D2-019_T2FS.nii.gz",
+      "image_sha256": "d166ddac9b0d2b2ca7009db7c20d7b5c28ac88261cf758dc724519931b9006e8",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-019/D2-019_ut.nii.gz",
+          "sha256": "982b68f7c0d448a2d1641e5e61818432a71f4c1071648b1182c67d8d7e3ef4e8",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-020",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-020/D2-020_T2FS.nii.gz",
+      "image_sha256": "79f83f21f58c4f7e4e7ab47758ba49ac9c13eecae4f0c2359a7b10a36f68c66e",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-020/D2-020_ut.nii.gz",
+          "sha256": "85b061b46582c327b5c1e09983069907eb663db2f27a65b4be2b039b7a8dd867",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-021",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-021/D2-021_T2FS.nii.gz",
+      "image_sha256": "effa47d171242a8d85e9db5fa43e21829c27aa5203c04ce1859d41b11f7a06f6",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-021/D2-021_ut.nii.gz",
+          "sha256": "f2e166b7d167fc995bf34ef2807d2e164b80c771dcc2b2b303e4d6365004e3d4",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-022",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-022/D2-022_T2FS.nii.gz",
+      "image_sha256": "0ff94b5acd889ac57cc11ec75dcfdb2eedee62f103a17db94a901645878cc381",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-022/D2-022_ut.nii.gz",
+          "sha256": "33c175eb49c4d594393ba91dbb0a6373ea4c511ff629963db4950c6158fd0dcf",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-023",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-023/D2-023_T2FS.nii.gz",
+      "image_sha256": "751a25c1674dbfadb8449bd81a2d5396fb54378379c0c8f8c1865a1cc4561274",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-023/D2-023_ut.nii.gz",
+          "sha256": "553968c63c5460c1e19a0e27bc658d03384373134e069b9eb7d091a7a2b157fa",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-024",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-024/D2-024_T2FS.nii.gz",
+      "image_sha256": "bc3e4e64773e1e2ca7e59ba81fb8f7c6b292f471bba8c7a83750b54a50b485e6",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-024/D2-024_ut.nii.gz",
+          "sha256": "24f67bb37a9671e08125b1f1f72706cb0c2416e4fa96561c984ec9fa61542056",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-025",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-025/D2-025_T2FS.nii.gz",
+      "image_sha256": "e3e2c9ee5f33c852552b79b4f607e9c59092e8ea1d716ddb83000a5a5c18a61a",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-025/D2-025_ut.nii.gz",
+          "sha256": "cb913f21b5ba93cecb4ac4e46f218090b9e17e928989e96d2ec1cb340f7f74c3",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-026",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-026/D2-026_T2FS.nii.gz",
+      "image_sha256": "291bc99d6be5556ec1903b408d0cefc577b213ad70c5e0793f761c5c6b2594f5",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-026/D2-026_ut.nii.gz",
+          "sha256": "4d86c62ab106bfd7df23b2c02e2115df261f611631e249175995facd3b4fdbdb",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-027",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-027/D2-027_T2FS.nii.gz",
+      "image_sha256": "8d32d9c33dca3122b2731cd258c3567e6a258567806147a31c24cfecf6fc6acc",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-027/D2-027_ut.nii.gz",
+          "sha256": "d1b9b620269a2b84957a47904fe34cd8ebd416eedaea27ab1a87d540d4755312",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-028",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-028/D2-028_T2FS.nii.gz",
+      "image_sha256": "7e6913d0385aa525204194cfd5a60f92dd6bf4f64c6ff234429e920e6fdc46f0",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-028/D2-028_ut.nii.gz",
+          "sha256": "0c4e7d4cf94c92bad9f45b8ed159059d758978a215db7ad2c474e4c5c0d8a87e",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-029",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-029/D2-029_T2FS.nii.gz",
+      "image_sha256": "7e27b51d5d10a5aa83a086856d97746ed4b39114349333ae0a3974c255e0678c",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-029/D2-029_ut.nii.gz",
+          "sha256": "a6eec7cc8f6216328a78f2d6948b622e33645c070af4b0e657d6a7486eddbfbe",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-038",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-038/D2-038_T2FS.nii.gz",
+      "image_sha256": "0cb265688efc9a8cb8aea66487c37786f6589102c29eb6627b21d44a08f5c483",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-038/D2-038_ut.nii.gz",
+          "sha256": "2ede9028fca12af84839cfa45a79e4ffa981d97ad8e0f871bdb2d18810ff6fa3",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-039",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-039/D2-039_T2FS.nii.gz",
+      "image_sha256": "bfeffccc94d8fd6231dc66eb3046b55afcb03db44ca5a591a25572b388559537",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-039/D2-039_ut.nii.gz",
+          "sha256": "47dc81b0f28ffb44c612e3725ee8fe314bd29ccd50f139b48aca401ac0a33202",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-040",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-040/D2-040_T2FS.nii.gz",
+      "image_sha256": "1c5361916d7ffa4389cb18c65c6ff504a54b09f316cdd05f2b275e7445e17f61",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-040/D2-040_ut.nii.gz",
+          "sha256": "c9cbc292c699ff78d683513cc85505205d8da93070b747fe7b2594ad15dd3873",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-042",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-042/D2-042_T2.nii.gz",
+      "image_sha256": "ecea6d9559b230cc2ee94ea0df2db3e4147c9a0d631a33858bfec5cda11409e7",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-042/D2-042_ut.nii.gz",
+          "sha256": "79c45e5a75a5595d72a5807e2a0ec4ca7df31e5c78cdca03d5d664b35ad67e1d",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-043",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-043/D2-043_T2.nii.gz",
+      "image_sha256": "c51156d5ded94900f613ff06838ca57c060d834d27aeb96958cd8fd85679c06f",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-043/D2-043_ut.nii.gz",
+          "sha256": "4d4979bf4e5335a7ab589650b53bdeaf3fa48b5c665c40515f7efc2730530af8",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-044",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-044/D2-044_T2FS.nii.gz",
+      "image_sha256": "50ceebc08acd012fb4b9e5c504dd074760fe5d6827d2f40952b52fb021d2a7c1",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-044/D2-044_ut.nii.gz",
+          "sha256": "d8711a42d728ca9613d95d71459431a106aac477df5008a3bf25ce8483210868",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-047",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-047/D2-047_T2.nii.gz",
+      "image_sha256": "1bac555c6f6178448ffe37e293be6c5b18bd0cf75d503cc623f992d13a8973f6",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-047/D2-047_ut.nii.gz",
+          "sha256": "fb4ee856fa7e9c81d3336d8dbe5e90c7cca6e8d7a6311a756b0915b00af4c55f",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-048",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-048/D2-048_T2.nii.gz",
+      "image_sha256": "5d4e45a7f0036444e840b0bfea978b0738636ab42dd4167c93243aef15b0a118",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-048/D2-048_ut.nii.gz",
+          "sha256": "b2671e75e9429fc212f7f3c61d7cbd335205cf18ad37ac974673dcdf737ea950",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-049",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-049/D2-049_T2FS.nii.gz",
+      "image_sha256": "4cd6669abef78d6b17e98ce7f2c89fe15d15268956d852dff510627b6a46da20",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-049/D2-049_ut.nii.gz",
+          "sha256": "93cd95b02573e68d3ab5bc839e512124a87bed88bbe2883a5094270844b478af",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-050",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-050/D2-050_T2FS.nii.gz",
+      "image_sha256": "e24e9a488ad359ccc3f6d2c33ffdb2a5059ef4ce2821544f1933b2d3a818a146",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-050/D2-050_ut.nii.gz",
+          "sha256": "9140fd81e02354ee8a09ae2d476299187719359c949961ee3dbd9935c328665a",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-051",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-051/D2-051_T2.nii.gz",
+      "image_sha256": "87325e3a88e0b2b6b6de2fe7029907913f6eb3e6f46a6bc47eeac80f38915ade",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-051/D2-051_ut.nii.gz",
+          "sha256": "737db229d6e49c31ec0331552fd19bee87ff5630f84585ba85212c55eeff83eb",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-053",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-053/D2-053_T2.nii.gz",
+      "image_sha256": "2887725fc62c29c409b6b7ce2e92941e76a4d02a339fd9da82c01159c771f298",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-053/D2-053_ut.nii.gz",
+          "sha256": "5e2ceb40c774c50ce69c064e483056507a813b25802fe8ac54a7c91343f99c1b",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-055",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-055/D2-055_T2FS.nii.gz",
+      "image_sha256": "0035ed652db57c53437c37959418634b4594758eb105a7e69120b1fbf3c40653",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-055/D2-055_ut.nii.gz",
+          "sha256": "b247f42ef0ff7fb6cb90f20a4302d9768b991a623d90cd0b805734d666055929",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-056",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-056/D2-056_T2.nii.gz",
+      "image_sha256": "232a27aa480f6b69215dc81744fae23e8679ed4eae23621609dcfa13bf76eb83",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-056/D2-056_ut.nii.gz",
+          "sha256": "af322270548e79920ebe5663780ff1a6687948db88410070e192cfd76d28fe93",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-058",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-058/D2-058_T2.nii.gz",
+      "image_sha256": "ab68cffb7ed8f550005f01e037692bcca1c18e877ee3cb7cff978e72c2e0e728",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-058/D2-058_ut.nii.gz",
+          "sha256": "bbb6475649c01da0c17eb359e7a798a4c409c4b01495512cd54d45340f92d558",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-059",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-059/D2-059_T2FS.nii.gz",
+      "image_sha256": "4c4a810ddd108b864dd912a989800d3a8ad5aefe574d16e9889624f7b437df4b",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-059/D2-059_ut.nii.gz",
+          "sha256": "80aad3456def1ca07e1b7078bb10b13aa6344b3a1e0d29a68e01a534f13b7b11",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-060",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-060/D2-060_T2.nii.gz",
+      "image_sha256": "a3cc182609baa7bea89a41f364968b8de8b45cc3fc0f4b962e845157e41b8299",
+      "sequence": "T2",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-060/D2-060_ut.nii.gz",
+          "sha256": "5b8cf40a4402fb768c028cee407a1a1b0bd5e61d13eb1e6faa868a3940a38100",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-061",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-061/D2-061_T2FS.nii.gz",
+      "image_sha256": "16636d40ae49e38f3d89b6cf75d7f53a6dc94224918d26778190ce1f0088ae50",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-061/D2-061_ut.nii.gz",
+          "sha256": "43904c139fe2566022ae28c56d0f60736c1215e3b58da2ffe3085c7c2680150a",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-062",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-062/D2-062_T2FS.nii.gz",
+      "image_sha256": "003cba9f5b8493845f830b08ea452ddfebaa83595d8ee0f262a31c33c684559e",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-062/D2-062_ut.nii.gz",
+          "sha256": "f31e8aa8f17de525798709c0c97d2a55f1c83a85b7d5f58ce3bb73728bec6f01",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-064",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-064/D2-064_T2FS.nii.gz",
+      "image_sha256": "301d83107778cd7058d1752d6675e6886cc983e40ba7cdf0c55d85c35a12b689",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-064/D2-064_ut.nii.gz",
+          "sha256": "937d824ce1f0ab16dc2460617b8b450df5451b5b10b80d87940e4531738b0ce2",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-065",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-065/D2-065_T2FS.nii.gz",
+      "image_sha256": "ab043706b6d00e28fbe23aa4511813b463524fb2032e2bfd0c8c23b0c41def3f",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-065/D2-065_ut.nii.gz",
+          "sha256": "21bf010e7e10b03bf0a9fee9a1c1a1846b47f5112a0ab5db17770ed35a3d392c",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-066",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-066/D2-066_T2FS.nii.gz",
+      "image_sha256": "64ffe3ffa11b7f845506acedd0b5824decb00db35ca72b2d1d45409f55ea0862",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-066/D2-066_ut.nii.gz",
+          "sha256": "aca00982f3f882230a8000f20e218463407c42e040d3243f3526dec04f1fc6c7",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-067",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-067/D2-067_T2FS.nii.gz",
+      "image_sha256": "10568e49078050473f2e40bd325760ab1b82a57ed3b9bdb0ad1446f24f44f37b",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-067/D2-067_ut.nii.gz",
+          "sha256": "fdc016911c994de25df2280a7e4b42ca426e8a774da61e176abf95574d6d29dc",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-072",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-072/D2-072_T2FS.nii.gz",
+      "image_sha256": "87d713f66906fe4fea062e2700f99f705eb0174b3bde7fc5b910fc6cbb1d69d7",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-072/D2-072_ut.nii.gz",
+          "sha256": "788ddd38e647c84353f848ed6f8a2e7fb0b6ad935683cd7fb6ab8c457f4a7008",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-073",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-073/D2-073_T2FS.nii.gz",
+      "image_sha256": "a107a33839644f4ff8bd76058cc681088cfda3596912177f9b192a380a4e3ed0",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-073/D2-073_ut.nii.gz",
+          "sha256": "058debd7c7a324ef0f2aaaa12e73c5f5b0bbaf8ab236400d7e8b0126d2ce9d15",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-075",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-075/D2-075_T2FS.nii.gz",
+      "image_sha256": "19165225504561a90090c914c850a18d7648e21be326bb0fba3fcbd8d98c724c",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-075/D2-075_ut.nii.gz",
+          "sha256": "1c1ecf9b1a598fe96b54c8636790102b2c2c4152c8044184eb77001b310972e3",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-078",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-078/D2-078_T2FS.nii.gz",
+      "image_sha256": "2603b2af3a156befcdba142e62de60d3b0ff6a3a5e51f6961c24dcfb050c104d",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-078/D2-078_ut.nii.gz",
+          "sha256": "6b2c6be215349b1c87486d852d7360312b31086e83a76f452c2486dbf6e9da3a",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    },
+    {
+      "participant": "D2-079",
+      "cohort": "D2",
+      "image": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-079/D2-079_T2FS.nii.gz",
+      "image_sha256": "94699d0ca4580a356d7c2cbe94ffed9d30aa3bb4e708db5db55322289e8ff830",
+      "sequence": "T2FS",
+      "axial_verified": true,
+      "identity_verified": true,
+      "identity_scope": "Source file/directory IDs checked and all IDs implicated in cross-ID exact image duplication excluded; clinical identity unavailable",
+      "geometry_review": "approved",
+      "overlay_review": "approved",
+      "complete_uterus_label": true,
+      "label_completeness_basis": "Source-exported whole-volume uterus annotation, finite binary/nonempty, no array-edge foreground; representative gross alignment screening, not independent expert contour certification",
+      "review_record": "outputs/cohort_screening.json",
+      "masks": [
+        {
+          "path": "data/original_v2/UT-EndoMRI/D2_TCPW/D2-079/D2-079_ut.nii.gz",
+          "sha256": "2e4f3138ca1dce202c85ff7417ad1535ef4cf7a8e7c0e758ae710c9fae425a05",
+          "rater": "single_source_rater"
+        }
+      ],
+      "training_rater": "single_source_rater"
+    }
+  ],
+  "preprocessing_choice": "One single-channel volume per participant: aligned T2 preferred; otherwise aligned T2FS. Source/external contrast distributions differ.",
+  "exclusions": [
+    {
+      "participant": "D1-041",
+      "reasons": [
+        "Conflicting coded qform and sform"
+      ]
+    },
+    {
+      "participant": "D2-007",
+      "reasons": [
+        "Unresolved shared exact image bytes across participant IDs in one or more sequences"
+      ]
+    },
+    {
+      "participant": "D2-008",
+      "reasons": [
+        "Unresolved shared exact image bytes across participant IDs in one or more sequences"
+      ]
+    },
+    {
+      "participant": "D2-009",
+      "reasons": [
+        "Unresolved shared exact image bytes across participant IDs in one or more sequences"
+      ]
+    },
+    {
+      "participant": "D2-010",
+      "reasons": [
+        "Unresolved shared exact image bytes across participant IDs in one or more sequences"
+      ]
+    },
+    {
+      "participant": "D2-045",
+      "reasons": [
+        "Reference foreground touches array border; unresolved annotation/coverage flag"
+      ]
+    },
+    {
+      "participant": "D2-080",
+      "reasons": [
+        "Reference foreground touches array border; unresolved annotation/coverage flag"
+      ]
+    },
+    {
+      "participant": "D1-005",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-006",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-007",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-010",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-011",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-013",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-014",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-016",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-018",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-019",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-021",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-022",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-027",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-031",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-033",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-034",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-037",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-039",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-040",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-044",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-046",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-047",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-048",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D1-050",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-041",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-046",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-052",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-054",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-057",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-063",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-068",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-069",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-070",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-071",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-074",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-076",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    },
+    {
+      "participant": "D2-077",
+      "reasons": [
+        "No uterus reference on a matching T2-family physical grid"
+      ]
+    }
+  ]
+}

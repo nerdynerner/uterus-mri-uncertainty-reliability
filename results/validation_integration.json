@@ -1,0 +1,12 @@
+{
+  "clinical_data_used": false,
+  "scope": "synthetic geometry and gradient checks",
+  "status": "passed",
+  "native_roundtrip_dice": 1.0,
+  "gradient_finite": true,
+  "dropout_stochastic": true,
+  "mismatch_rejected": true,
+  "preprocessed_input_float32": true,
+  "preprocessed_input_forward_pass": true,
+  "pipeline_sha256": "b41195c8cb19aa6c3adb7a6c2f3aa6830439e7dae0067513a0a3a931be1e43fe"
+}

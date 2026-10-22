@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "affected_grids": [
+    {
+      "participant": "D1-003",
+      "rater": "r2",
+      "max_corner_displacement_mm": 0.0022575861828772453
+    },
+    {
+      "participant": "D1-024",
+      "rater": "r2",
+      "max_corner_displacement_mm": 0.0079057309600597
+    },
+    {
+      "participant": "D1-026",
+      "rater": "r2",
+      "max_corner_displacement_mm": 0.0018332813475251787
+    }
+  ],
+  "new_admission_or_resampling": false
+}

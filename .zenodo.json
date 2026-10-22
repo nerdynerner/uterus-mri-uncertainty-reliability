@@ -1,0 +1,25 @@
+{
+  "title": "Assessing the Reliability of Machine Learning Error Identification Across Uterus MRI Cohorts",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Otu, Neriah"
+    }
+  ],
+  "description": "Manuscript-associated code for uncertainty ranking, calibration and fixed-threshold review performance in automatic uterus MRI segmentation across UT-EndoMRI cohorts.",
+  "keywords": [
+    "MRI",
+    "uterus segmentation",
+    "predictive uncertainty",
+    "selective prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.15750762",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "mit"
+}

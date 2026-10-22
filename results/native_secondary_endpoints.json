@@ -1,0 +1,3266 @@
+[
+  {
+    "participant": "D2-000",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.19729621708393097,
+          "3": 0.2361321747303009,
+          "5": 0.28973135352134705
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 98.27798461914062
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-002",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.1270178258419037,
+          "3": 0.1405366063117981,
+          "5": 0.17037861049175262
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 86.97130584716797
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-020",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.41229143738746643,
+          "3": 0.47387585043907166,
+          "5": 0.5678440928459167
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 89.43230438232422
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-021",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.43561306595802307,
+          "3": 0.5196409225463867,
+          "5": 0.647323489189148
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 32.60377883911133
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-023",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.3924708664417267,
+          "3": 0.4404464066028595,
+          "5": 0.5131781697273254
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 36.234710693359375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-024",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.369221568107605,
+          "3": 0.43285071849823,
+          "5": 0.5316275954246521
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 45.14609146118164
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-025",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.36337149143218994,
+          "3": 0.42068350315093994,
+          "5": 0.48632627725601196
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 42.58442687988281
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-027",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.47396665811538696,
+          "3": 0.526877224445343,
+          "5": 0.6065850853919983
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 51.61652755737305
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-053",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.22606299817562103,
+          "3": 0.272788405418396,
+          "5": 0.3820054829120636
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 19.93170166015625
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-055",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.3172551095485687,
+          "3": 0.366712749004364,
+          "5": 0.4608864188194275
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 75.75428771972656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-065",
+    "partition": "internal_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.48211297392845154,
+          "3": 0.5531406998634338,
+          "5": 0.6451647877693176
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 61.426631927490234
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-000",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.2660534679889679,
+          "3": 0.3227787911891937,
+          "5": 0.39415958523750305
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 92.01322937011719
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-002",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.16996672749519348,
+          "3": 0.19388987123966217,
+          "5": 0.24001571536064148
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 101.34999084472656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-020",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.4420012831687927,
+          "3": 0.5238499045372009,
+          "5": 0.6469367742538452
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 61.446380615234375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-021",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5536736845970154,
+          "3": 0.6478139162063599,
+          "5": 0.7776322364807129
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 30.077377319335938
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-023",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.4205186069011688,
+          "3": 0.476291686296463,
+          "5": 0.5621327757835388
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 34.14939498901367
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-024",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5258962512016296,
+          "3": 0.587729811668396,
+          "5": 0.6868999004364014
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 18.016944885253906
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-025",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.43387019634246826,
+          "3": 0.5241832733154297,
+          "5": 0.619800329208374
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 28.1801700592041
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-027",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5845949649810791,
+          "3": 0.6505438089370728,
+          "5": 0.7618553638458252
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 36.005653381347656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-053",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.25064194202423096,
+          "3": 0.299852579832077,
+          "5": 0.39807581901550293
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 52.359901428222656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-055",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.37957215309143066,
+          "3": 0.44784367084503174,
+          "5": 0.5840434432029724
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 71.10820007324219
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-065",
+    "partition": "internal_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.4698956310749054,
+          "3": 0.5610910058021545,
+          "5": 0.6661445498466492
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 56.199310302734375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-000",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.10701480507850647,
+          "3": 0.1365862786769867,
+          "5": 0.1808796375989914
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 31.259408950805664
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-002",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.1418207287788391,
+          "3": 0.1601015031337738,
+          "5": 0.19454456865787506
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 45.84624099731445
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-020",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5513806939125061,
+          "3": 0.6185703277587891,
+          "5": 0.7101991176605225
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 12.352646827697754
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-021",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5157933235168457,
+          "3": 0.582064688205719,
+          "5": 0.6666308641433716
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 17.999998092651367
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-023",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.31505516171455383,
+          "3": 0.382622629404068,
+          "5": 0.4838714301586151
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 24.768291473388672
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-024",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.484438419342041,
+          "3": 0.5526769161224365,
+          "5": 0.6719239354133606
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 17.442686080932617
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-025",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5409979224205017,
+          "3": 0.6475289463996887,
+          "5": 0.7372685670852661
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 25.737438201904297
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-027",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5809954404830933,
+          "3": 0.6576696634292603,
+          "5": 0.7703800797462463
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 8.512259483337402
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-053",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.04931420460343361,
+          "3": 0.06442777067422867,
+          "5": 0.11096307635307312
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 29.033432006835938
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-055",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.41059350967407227,
+          "3": 0.47259339690208435,
+          "5": 0.5840129852294922
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 33.59375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D2-065",
+    "partition": "internal_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "single_source_rater",
+        "surface_dice": {
+          "2": 0.5032623410224915,
+          "3": 0.5965257883071899,
+          "5": 0.740488588809967
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 48.54410934448242
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-000",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.20180369913578033,
+          "3": 0.22927185893058777,
+          "5": 0.4342672526836395
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 34.65544509887695
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.27350670099258423,
+          "3": 0.32028982043266296,
+          "5": 0.48125869035720825
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 28.835739135742188
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2580307126045227,
+          "3": 0.30677881836891174,
+          "5": 0.4764038920402527
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 31.024181365966797
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.6979163335997869,
+        0.7108612015389169,
+        0.8935854522331246
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 32897,
+        "agreement_voxels": 77733,
+        "mean_entropy_difference": 0.101588174700737
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 27281,
+        "agreement_voxels": 32347,
+        "mean_entropy_difference": 0.05693523585796356
+      },
+      "soft_reference_brier": 0.31266716561887586,
+      "majority_vote_available": true,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    },
+    "majority_dice_descriptive_only": 0.33949532446783515
+  },
+  {
+    "participant": "D1-001",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.09338697791099548,
+          "3": 0.10497687757015228,
+          "5": 0.1869116723537445
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 48.81341552734375
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.19008079171180725,
+          "3": 0.21342435479164124,
+          "5": 0.3395671546459198
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 46.34246063232422
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7630720850352767
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 81670,
+        "agreement_voxels": 246372,
+        "mean_entropy_difference": -0.10547591745853424
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 46658,
+        "agreement_voxels": 74725,
+        "mean_entropy_difference": -0.08486358076334
+      },
+      "soft_reference_brier": 0.36718865714458937,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-002",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.15456750988960266,
+          "3": 0.18633830547332764,
+          "5": 0.23957718908786774
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 127.43724060058594
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.1581648737192154,
+          "3": 0.1885349005460739,
+          "5": 0.24103674292564392
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 140.22303771972656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7853655997084653
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 53597,
+        "agreement_voxels": 152986,
+        "mean_entropy_difference": -0.008883923292160034
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43584,
+        "agreement_voxels": 66539,
+        "mean_entropy_difference": -0.025144875049591064
+      },
+      "soft_reference_brier": 0.2269471003841171,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-003",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.23331861197948456,
+          "3": 0.28003427386283875,
+          "5": 0.4064527153968811
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 75.61415100097656
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2732613980770111,
+          "3": 0.3246627151966095,
+          "5": 0.4610781967639923
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 70.57974243164062
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7144267117115359
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 73203,
+        "agreement_voxels": 167103,
+        "mean_entropy_difference": -0.01946684718132019
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 51118,
+        "agreement_voxels": 67850,
+        "mean_entropy_difference": -0.05959722399711609
+      },
+      "soft_reference_brier": 0.2415124639591879,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-004",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.10472352802753448,
+          "3": 0.11327362060546875,
+          "5": 0.23609919846057892
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 84.0
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.017574772238731384,
+          "3": 0.024460284039378166,
+          "5": 0.059507932513952255
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 51.5019416809082
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.2236746112387764
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 823630,
+        "agreement_voxels": 479396,
+        "mean_entropy_difference": -0.010304797440767288
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 191879,
+        "agreement_voxels": 150856,
+        "mean_entropy_difference": -0.022542260587215424
+      },
+      "soft_reference_brier": 0.23354876004899644,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-008",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.1496570110321045,
+          "3": 0.18970632553100586,
+          "5": 0.2537993788719177
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 101.62378692626953
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.22125008702278137,
+          "3": 0.26321250200271606,
+          "5": 0.3164880871772766
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 102.5103530883789
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8117146134553443
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 29053,
+        "agreement_voxels": 104666,
+        "mean_entropy_difference": -0.00179995596408844
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 25513,
+        "agreement_voxels": 48460,
+        "mean_entropy_difference": -0.04267004132270813
+      },
+      "soft_reference_brier": 0.32883244698807484,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-009",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.08250736445188522,
+          "3": 0.09661632776260376,
+          "5": 0.12647782266139984
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 185.93328857421875
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-012",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.24234694242477417,
+          "3": 0.27627232670783997,
+          "5": 0.3551258444786072
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 122.49331665039062
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-015",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.20167185366153717,
+          "3": 0.24217729270458221,
+          "5": 0.3101901710033417
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 93.34880828857422
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-017",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.056599847972393036,
+          "3": 0.06772717088460922,
+          "5": 0.12497652322053909
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 48.438106536865234
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-020",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.2604503333568573,
+          "3": 0.3079599440097809,
+          "5": 0.4448776841163635
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 131.55056762695312
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.268429696559906,
+          "3": 0.3170296847820282,
+          "5": 0.43502387404441833
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 136.79226684570312
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8140569651239812
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 25826,
+        "agreement_voxels": 133792,
+        "mean_entropy_difference": 0.018504589796066284
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 24330,
+        "agreement_voxels": 50866,
+        "mean_entropy_difference": -0.053979724645614624
+      },
+      "soft_reference_brier": 0.14817599675484308,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-023",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.287077397108078,
+          "3": 0.3449740707874298,
+          "5": 0.48111021518707275
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 40.01374435424805
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-024",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.12479684501886368,
+          "3": 0.15761707723140717,
+          "5": 0.2674598693847656
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 40.0
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.11336225271224976,
+          "3": 0.14126496016979218,
+          "5": 0.23212629556655884
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 45.191261291503906
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7577717179587067
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 49744,
+        "agreement_voxels": 182169,
+        "mean_entropy_difference": -0.07353787124156952
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43395,
+        "agreement_voxels": 60862,
+        "mean_entropy_difference": -0.07765389233827591
+      },
+      "soft_reference_brier": 0.3224265869703632,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-025",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.2630084455013275,
+          "3": 0.30804523825645447,
+          "5": 0.39134588837623596
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 49.5
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2753233015537262,
+          "3": 0.334526389837265,
+          "5": 0.4378674328327179
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 55.0
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7643445401229955
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 67787,
+        "agreement_voxels": 177916,
+        "mean_entropy_difference": -0.07193617522716522
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 60510,
+        "agreement_voxels": 72359,
+        "mean_entropy_difference": -0.07454022765159607
+      },
+      "soft_reference_brier": 0.27717646050112177,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-026",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.22686398029327393,
+          "3": 0.26125621795654297,
+          "5": 0.3206600546836853
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 80.66908264160156
+      },
+      {
+        "rater": "re3",
+        "surface_dice": {
+          "2": 0.25588199496269226,
+          "3": 0.2946074306964874,
+          "5": 0.3660014569759369
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 80.81614685058594
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8213538098803588
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 56069,
+        "agreement_voxels": 199156,
+        "mean_entropy_difference": 0.08352220058441162
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 47670,
+        "agreement_voxels": 82842,
+        "mean_entropy_difference": 0.03458297252655029
+      },
+      "soft_reference_brier": 0.38475763389541573,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-028",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2151147872209549,
+          "3": 0.25269389152526855,
+          "5": 0.39112648367881775
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 98.81832122802734
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-029",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.32815441489219666,
+          "3": 0.3951210379600525,
+          "5": 0.5503402948379517
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 94.82911682128906
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-030",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.23092658817768097,
+          "3": 0.2796105146408081,
+          "5": 0.3573838472366333
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 130.71534729003906
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-032",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.23680394887924194,
+          "3": 0.2949848771095276,
+          "5": 0.4506244957447052
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 110.72691345214844
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-035",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.17324571311473846,
+          "3": 0.19677329063415527,
+          "5": 0.23972563445568085
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 105.90272521972656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-036",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.24519462883472443,
+          "3": 0.2933170199394226,
+          "5": 0.4642680883407593
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 90.45026397705078
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-038",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.24372029304504395,
+          "3": 0.29373982548713684,
+          "5": 0.4516773521900177
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 84.50709533691406
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.26581382751464844,
+          "3": 0.3151111900806427,
+          "5": 0.49479302763938904
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 83.97321319580078
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8324729190107442
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 30374,
+        "agreement_voxels": 146776,
+        "mean_entropy_difference": -0.010672032833099365
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 28457,
+        "agreement_voxels": 56229,
+        "mean_entropy_difference": -0.022468924522399902
+      },
+      "soft_reference_brier": 0.27466182179203963,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-042",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.1109616756439209,
+          "3": 0.1282038390636444,
+          "5": 0.15894903242588043
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 104.29357147216797
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-043",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.14789758622646332,
+          "3": 0.1742989867925644,
+          "5": 0.2247486263513565
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 132.11415100097656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-045",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.07242198288440704,
+          "3": 0.0850462093949318,
+          "5": 0.11016129702329636
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 96.59580993652344
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-049",
+    "partition": "external_test",
+    "method": "deterministic",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.3320617973804474,
+          "3": 0.38729220628738403,
+          "5": 0.5132752656936646
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 73.82411193847656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-000",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.2161938101053238,
+          "3": 0.25118502974510193,
+          "5": 0.4928985834121704
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 26.40549087524414
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.36332038044929504,
+          "3": 0.42348793148994446,
+          "5": 0.5974833965301514
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 23.027156829833984
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.37355655431747437,
+          "3": 0.43350014090538025,
+          "5": 0.6084054112434387
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 23.85371971130371
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.6979163335997869,
+        0.7108612015389169,
+        0.8935854522331246
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 32897,
+        "agreement_voxels": 77733,
+        "mean_entropy_difference": 0.19241097569465637
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 27281,
+        "agreement_voxels": 32347,
+        "mean_entropy_difference": 0.1260659396648407
+      },
+      "soft_reference_brier": 0.24856959817108684,
+      "majority_vote_available": true,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    },
+    "majority_dice_descriptive_only": 0.35138873313147173
+  },
+  {
+    "participant": "D1-001",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.08628050237894058,
+          "3": 0.10229968279600143,
+          "5": 0.19288773834705353
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 33.648921966552734
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.17960569262504578,
+          "3": 0.21259939670562744,
+          "5": 0.3625066578388214
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 29.47880744934082
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7630720850352767
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 81670,
+        "agreement_voxels": 246372,
+        "mean_entropy_difference": -0.08681195229291916
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 46658,
+        "agreement_voxels": 74725,
+        "mean_entropy_difference": -0.13652034103870392
+      },
+      "soft_reference_brier": 0.35547610630274945,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-002",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.1391625851392746,
+          "3": 0.16850849986076355,
+          "5": 0.22231347858905792
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 129.45167541503906
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.1792571097612381,
+          "3": 0.21413704752922058,
+          "5": 0.28003376722335815
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 140.85447692871094
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7853655997084653
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 53597,
+        "agreement_voxels": 152986,
+        "mean_entropy_difference": -0.11240535974502563
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43584,
+        "agreement_voxels": 66539,
+        "mean_entropy_difference": -0.12080147862434387
+      },
+      "soft_reference_brier": 0.23365758352053256,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-003",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.24327892065048218,
+          "3": 0.2974291741847992,
+          "5": 0.43592795729637146
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 75.58653259277344
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2650282084941864,
+          "3": 0.32463741302490234,
+          "5": 0.4727807343006134
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 56.844085693359375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7144267117115359
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 73203,
+        "agreement_voxels": 167103,
+        "mean_entropy_difference": 0.029768645763397217
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 51118,
+        "agreement_voxels": 67850,
+        "mean_entropy_difference": -0.018730103969573975
+      },
+      "soft_reference_brier": 0.17954226491158992,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-004",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.058077748864889145,
+          "3": 0.06263924390077591,
+          "5": 0.09945513308048248
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 34.30378723144531
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.015004545450210571,
+          "3": 0.01937585510313511,
+          "5": 0.03804216533899307
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 54.829280853271484
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.2236746112387764
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 823630,
+        "agreement_voxels": 479396,
+        "mean_entropy_difference": 0.02475493773818016
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 191879,
+        "agreement_voxels": 150856,
+        "mean_entropy_difference": -0.02334170788526535
+      },
+      "soft_reference_brier": 0.22997008904154873,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-008",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.1317492425441742,
+          "3": 0.16610528528690338,
+          "5": 0.22352619469165802
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 102.99590301513672
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.19981466233730316,
+          "3": 0.23973757028579712,
+          "5": 0.3020649552345276
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 101.91619873046875
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8117146134553443
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 29053,
+        "agreement_voxels": 104666,
+        "mean_entropy_difference": 0.032808393239974976
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 25513,
+        "agreement_voxels": 48460,
+        "mean_entropy_difference": -0.033052802085876465
+      },
+      "soft_reference_brier": 0.33057285190337504,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-009",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.08099602907896042,
+          "3": 0.09641757607460022,
+          "5": 0.12881797552108765
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 188.45883178710938
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-012",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.38920706510543823,
+          "3": 0.4356183707714081,
+          "5": 0.545204222202301
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 58.105506896972656
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-015",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.15278100967407227,
+          "3": 0.17801333963871002,
+          "5": 0.22315415740013123
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 35.94874572753906
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-017",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.03436318412423134,
+          "3": 0.03965260088443756,
+          "5": 0.06987741589546204
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 76.1590347290039
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-020",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.27155667543411255,
+          "3": 0.3291519582271576,
+          "5": 0.4861376881599426
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 159.76588439941406
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2859094440937042,
+          "3": 0.34326454997062683,
+          "5": 0.5063327550888062
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 162.7893524169922
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8140569651239812
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 25826,
+        "agreement_voxels": 133792,
+        "mean_entropy_difference": 0.018620342016220093
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 24330,
+        "agreement_voxels": 50866,
+        "mean_entropy_difference": -0.0815272331237793
+      },
+      "soft_reference_brier": 0.14915364317664503,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-023",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.336007684469223,
+          "3": 0.40191566944122314,
+          "5": 0.5400793552398682
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 41.246360778808594
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-024",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.08118273317813873,
+          "3": 0.10881700366735458,
+          "5": 0.20834846794605255
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 40.0
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.09264328330755234,
+          "3": 0.12034297734498978,
+          "5": 0.20429401099681854
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 44.412837982177734
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7577717179587067
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 49744,
+        "agreement_voxels": 182169,
+        "mean_entropy_difference": -0.1408618986606598
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43395,
+        "agreement_voxels": 60862,
+        "mean_entropy_difference": -0.12201271951198578
+      },
+      "soft_reference_brier": 0.28962219248307336,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-025",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.25331446528434753,
+          "3": 0.2996985912322998,
+          "5": 0.37534335255622864
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 22.141590118408203
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.24326191842556,
+          "3": 0.3045249879360199,
+          "5": 0.41066989302635193
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 24.59674835205078
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7643445401229955
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 67787,
+        "agreement_voxels": 177916,
+        "mean_entropy_difference": -0.12333622574806213
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 60510,
+        "agreement_voxels": 72359,
+        "mean_entropy_difference": -0.07977929711341858
+      },
+      "soft_reference_brier": 0.26342960184027786,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-026",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.24922189116477966,
+          "3": 0.2847816050052643,
+          "5": 0.3464218080043793
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 77.59832763671875
+      },
+      {
+        "rater": "re3",
+        "surface_dice": {
+          "2": 0.2826562225818634,
+          "3": 0.326342910528183,
+          "5": 0.40853697061538696
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 71.21446990966797
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8213538098803588
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 56069,
+        "agreement_voxels": 199156,
+        "mean_entropy_difference": 0.13938754796981812
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 47670,
+        "agreement_voxels": 82842,
+        "mean_entropy_difference": 0.05408206582069397
+      },
+      "soft_reference_brier": 0.3437559308870458,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-028",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2334461510181427,
+          "3": 0.26929762959480286,
+          "5": 0.4256086051464081
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 93.6218032836914
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-029",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.31311237812042236,
+          "3": 0.36565420031547546,
+          "5": 0.5037925839424133
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 88.5538101196289
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-030",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2782156765460968,
+          "3": 0.3541252911090851,
+          "5": 0.46304643154144287
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 27.111108779907227
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-032",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2720170021057129,
+          "3": 0.3199000358581543,
+          "5": 0.4698140323162079
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 73.6706314086914
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-035",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.23148971796035767,
+          "3": 0.2579348683357239,
+          "5": 0.31198835372924805
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 65.74382019042969
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-036",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2692802846431732,
+          "3": 0.3253721594810486,
+          "5": 0.5187116265296936
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 30.233259201049805
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-038",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.2225436419248581,
+          "3": 0.2699437439441681,
+          "5": 0.41476312279701233
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 82.10359191894531
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.2618967294692993,
+          "3": 0.3139986991882324,
+          "5": 0.47806668281555176
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 81.21582794189453
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8324729190107442
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 30374,
+        "agreement_voxels": 146776,
+        "mean_entropy_difference": -0.06299805641174316
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 28457,
+        "agreement_voxels": 56229,
+        "mean_entropy_difference": -0.05844798684120178
+      },
+      "soft_reference_brier": 0.2314000239585108,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-042",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.06258314847946167,
+          "3": 0.06938226521015167,
+          "5": 0.08495592325925827
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 55.01817321777344
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-043",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.16111227869987488,
+          "3": 0.18889357149600983,
+          "5": 0.23277421295642853
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 133.23756408691406
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-045",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.007709345780313015,
+          "3": 0.009895332157611847,
+          "5": 0.016457563266158104
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 88.98715209960938
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-049",
+    "partition": "external_test",
+    "method": "ensemble",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.365805059671402,
+          "3": 0.4466690123081207,
+          "5": 0.6058029532432556
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 36.0
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-000",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.20043516159057617,
+          "3": 0.22398023307323456,
+          "5": 0.44811350107192993
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 19.999998092651367
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.36784330010414124,
+          "3": 0.42825964093208313,
+          "5": 0.5942690372467041
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 14.999999046325684
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.37241971492767334,
+          "3": 0.4269271194934845,
+          "5": 0.5946149826049805
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 12.845232009887695
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.6979163335997869,
+        0.7108612015389169,
+        0.8935854522331246
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 32897,
+        "agreement_voxels": 77733,
+        "mean_entropy_difference": 0.13340705633163452
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 27281,
+        "agreement_voxels": 32347,
+        "mean_entropy_difference": 0.06246945261955261
+      },
+      "soft_reference_brier": 0.288213537221231,
+      "majority_vote_available": true,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    },
+    "majority_dice_descriptive_only": 0.35541119076065314
+  },
+  {
+    "participant": "D1-001",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.0877046138048172,
+          "3": 0.09676706790924072,
+          "5": 0.16854774951934814
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 32.3187255859375
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.14246629178524017,
+          "3": 0.16212570667266846,
+          "5": 0.27355462312698364
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 28.324899673461914
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7630720850352767
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 81670,
+        "agreement_voxels": 246372,
+        "mean_entropy_difference": -0.10687464475631714
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 46658,
+        "agreement_voxels": 74725,
+        "mean_entropy_difference": -0.14908772706985474
+      },
+      "soft_reference_brier": 0.3802182518620404,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-002",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.17707204818725586,
+          "3": 0.21242213249206543,
+          "5": 0.27990755438804626
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 181.04454040527344
+      },
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.19497022032737732,
+          "3": 0.237358957529068,
+          "5": 0.31215909123420715
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 188.67465209960938
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7853655997084653
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 53597,
+        "agreement_voxels": 152986,
+        "mean_entropy_difference": -0.12888315320014954
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43584,
+        "agreement_voxels": 66539,
+        "mean_entropy_difference": -0.13165438175201416
+      },
+      "soft_reference_brier": 0.2952531990728091,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-003",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.2739638388156891,
+          "3": 0.3281409740447998,
+          "5": 0.5247116088867188
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 25.044960021972656
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.3414945900440216,
+          "3": 0.40639275312423706,
+          "5": 0.6079419255256653
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 17.32772445678711
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7144267117115359
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 73203,
+        "agreement_voxels": 167103,
+        "mean_entropy_difference": 0.008494168519973755
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 51118,
+        "agreement_voxels": 67850,
+        "mean_entropy_difference": -0.03021162748336792
+      },
+      "soft_reference_brier": 0.24608386305933094,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-004",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.043830059468746185,
+          "3": 0.04770256578922272,
+          "5": 0.10168040543794632
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 69.0
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.009440778754651546,
+          "3": 0.014321315102279186,
+          "5": 0.04037301987409592
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 54.48026657104492
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.2236746112387764
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 823630,
+        "agreement_voxels": 479396,
+        "mean_entropy_difference": 0.05618997663259506
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 191879,
+        "agreement_voxels": 150856,
+        "mean_entropy_difference": -0.012504395097494125
+      },
+      "soft_reference_brier": 0.21851749976025234,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-008",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r1",
+        "surface_dice": {
+          "2": 0.014201387763023376,
+          "3": 0.01958438754081726,
+          "5": 0.03016657568514347
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 86.06256103515625
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.020852012559771538,
+          "3": 0.025114398449659348,
+          "5": 0.036750566214323044
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 86.50150299072266
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8117146134553443
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 29053,
+        "agreement_voxels": 104666,
+        "mean_entropy_difference": -0.05367656797170639
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 25513,
+        "agreement_voxels": 48460,
+        "mean_entropy_difference": -0.033088937401771545
+      },
+      "soft_reference_brier": 0.46248041732274,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-009",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.15599410235881805,
+          "3": 0.1812911331653595,
+          "5": 0.23644955456256866
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 195.4863739013672
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-012",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.282880574464798,
+          "3": 0.333112895488739,
+          "5": 0.4658716917037964
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 30.319135665893555
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-015",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.16449159383773804,
+          "3": 0.18914569914340973,
+          "5": 0.2341238558292389
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 33.860008239746094
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-017",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.0077295866794884205,
+          "3": 0.010306702926754951,
+          "5": 0.027144016698002815
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 57.38031005859375
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-020",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.28220880031585693,
+          "3": 0.33736974000930786,
+          "5": 0.5440273284912109
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 12.589678764343262
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.3117799758911133,
+          "3": 0.37772321701049805,
+          "5": 0.5869070291519165
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 30.846633911132812
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8140569651239812
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 25826,
+        "agreement_voxels": 133792,
+        "mean_entropy_difference": -0.060270071029663086
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 24330,
+        "agreement_voxels": 50866,
+        "mean_entropy_difference": -0.10863462090492249
+      },
+      "soft_reference_brier": 0.22093974803053185,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-023",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.314221054315567,
+          "3": 0.36369848251342773,
+          "5": 0.5034627318382263
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 30.203475952148438
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-024",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.04895362630486488,
+          "3": 0.06401639431715012,
+          "5": 0.13000766932964325
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 44.53425216674805
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.06250254809856415,
+          "3": 0.0783875435590744,
+          "5": 0.12662431597709656
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 42.04877853393555
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7577717179587067
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 49744,
+        "agreement_voxels": 182169,
+        "mean_entropy_difference": -0.03413763642311096
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 43395,
+        "agreement_voxels": 60862,
+        "mean_entropy_difference": -0.03965723514556885
+      },
+      "soft_reference_brier": 0.3711134289848213,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-025",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.20575767755508423,
+          "3": 0.24934861063957214,
+          "5": 0.32494279742240906
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 49.5
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.23501217365264893,
+          "3": 0.28781476616859436,
+          "5": 0.3884543478488922
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 55.463951110839844
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.7643445401229955
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 67787,
+        "agreement_voxels": 177916,
+        "mean_entropy_difference": -0.030496567487716675
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 60510,
+        "agreement_voxels": 72359,
+        "mean_entropy_difference": -0.016262292861938477
+      },
+      "soft_reference_brier": 0.25182743422459836,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-026",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.15134961903095245,
+          "3": 0.17899805307388306,
+          "5": 0.23096208274364471
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 44.601707458496094
+      },
+      {
+        "rater": "re3",
+        "surface_dice": {
+          "2": 0.16297751665115356,
+          "3": 0.1927822083234787,
+          "5": 0.24332191050052643
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 43.59615707397461
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8213538098803588
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 56069,
+        "agreement_voxels": 199156,
+        "mean_entropy_difference": 0.09113675355911255
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 47670,
+        "agreement_voxels": 82842,
+        "mean_entropy_difference": -0.010381147265434265
+      },
+      "soft_reference_brier": 0.46704544267718345,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-028",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.20176267623901367,
+          "3": 0.2397015243768692,
+          "5": 0.3715718984603882
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 91.88096618652344
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-029",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.27694466710090637,
+          "3": 0.3390254080295563,
+          "5": 0.5307482481002808
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 20.28836441040039
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-030",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.35706987977027893,
+          "3": 0.43098756670951843,
+          "5": 0.560762882232666
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 15.386682510375977
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-032",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.20900629460811615,
+          "3": 0.24842119216918945,
+          "5": 0.38711076974868774
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 51.884483337402344
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-035",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.1910317987203598,
+          "3": 0.2072736918926239,
+          "5": 0.24132323265075684
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 32.596012115478516
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-036",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.3470667600631714,
+          "3": 0.41141998767852783,
+          "5": 0.5961302518844604
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 14.115593910217285
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-038",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r2",
+        "surface_dice": {
+          "2": 0.06000290438532829,
+          "3": 0.07964088022708893,
+          "5": 0.17850278317928314
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 27.285982131958008
+      },
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.07645434141159058,
+          "3": 0.10037361830472946,
+          "5": 0.2286764532327652
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 26.70206069946289
+      }
+    ],
+    "expert_disagreement": {
+      "status": "computed",
+      "pairwise_reference_dice": [
+        0.8324729190107442
+      ],
+      "union_plus_5mm": {
+        "disagreement_voxels": 30374,
+        "agreement_voxels": 146776,
+        "mean_entropy_difference": -0.08681008219718933
+      },
+      "boundary_2mm_sensitivity": {
+        "disagreement_voxels": 28457,
+        "agreement_voxels": 56229,
+        "mean_entropy_difference": -0.0883624404668808
+      },
+      "soft_reference_brier": 0.36415597567805613,
+      "majority_vote_available": false,
+      "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+    }
+  },
+  {
+    "participant": "D1-042",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.07932430505752563,
+          "3": 0.0899784117937088,
+          "5": 0.1100904792547226
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 55.11124801635742
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-043",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.17412419617176056,
+          "3": 0.20668354630470276,
+          "5": 0.2619574964046478
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 127.00856018066406
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-045",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.035516124218702316,
+          "3": 0.04222390428185463,
+          "5": 0.05507853999733925
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 45.35581588745117
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  },
+  {
+    "participant": "D1-049",
+    "partition": "external_test",
+    "method": "dropout",
+    "references": [
+      {
+        "rater": "r3",
+        "surface_dice": {
+          "2": 0.437359094619751,
+          "3": 0.5331659913063049,
+          "5": 0.7325875163078308
+        },
+        "empty_case": null,
+        "hd95_definition": "MONAI symmetric maximum of directed 95th-percentile surface distances",
+        "hd95_mm": 27.0
+      }
+    ],
+    "expert_disagreement": {
+      "status": "undefined_fewer_than_two_compatible_references"
+    }
+  }
+]

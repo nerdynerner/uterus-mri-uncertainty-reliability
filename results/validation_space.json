@@ -1,0 +1,38 @@
+{
+  "clinical_data_used": false,
+  "scope": "artificial changed-spacing/oblique geometry and save/load",
+  "status": "passed",
+  "geometry": [
+    {
+      "obliquity_degrees": 0.0,
+      "restored_dice": 0.9762228260869565,
+      "native_shape": [
+        49,
+        53,
+        9
+      ],
+      "processed_shape": [
+        40,
+        48,
+        9
+      ]
+    },
+    {
+      "obliquity_degrees": 12.0,
+      "restored_dice": 0.9762228260869565,
+      "native_shape": [
+        49,
+        53,
+        9
+      ],
+      "processed_shape": [
+        40,
+        48,
+        9
+      ]
+    }
+  ],
+  "checkpoint_exact_cpu": true,
+  "pipeline_sha256": "b41195c8cb19aa6c3adb7a6c2f3aa6830439e7dae0067513a0a3a931be1e43fe",
+  "limitation": "Simple synthetic objects; not evidence of anatomical pairing or clinical accuracy"
+}

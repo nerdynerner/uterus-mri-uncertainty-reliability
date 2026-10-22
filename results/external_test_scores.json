@@ -1,0 +1,2042 @@
+[
+  {
+    "participant": "D1-000",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5063511729240417,
+    "raw_uncertainty": 0.5063511729240417,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.22183434194963425,
+        "iou": 0.12475459805744989,
+        "absolute_volume_error_ml": 23.288755751779366,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.3477626805150459,
+        "iou": 0.21047986049815934,
+        "absolute_volume_error_ml": 8.427499657305985,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.3589989200356858,
+        "iou": 0.21876824117842306,
+        "absolute_volume_error_ml": 0.9637499608102809,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7781656580503657,
+      0.6522373194849541,
+      0.6410010799643142
+    ]
+  },
+  {
+    "participant": "D1-001",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.564725399017334,
+    "raw_uncertainty": 0.564725399017334,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.20839048344763356,
+        "iou": 0.11631467768079506,
+        "absolute_volume_error_ml": 184.32600846366958,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.3057027771888912,
+        "iou": 0.18043043043043044,
+        "absolute_volume_error_ml": 108.48400498124371,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7916095165523664,
+      0.6942972228111088
+    ]
+  },
+  {
+    "participant": "D1-002",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4417579472064972,
+    "raw_uncertainty": 0.4417579472064972,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.4366698324309552,
+        "iou": 0.27932028786342067,
+        "absolute_volume_error_ml": 116.926875,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.4099195443749456,
+        "iou": 0.25779798935633597,
+        "absolute_volume_error_ml": 194.78225,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5633301675690447,
+      0.5900804556250544
+    ]
+  },
+  {
+    "participant": "D1-003",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4675125479698181,
+    "raw_uncertainty": 0.4675125479698181,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.398110617740554,
+        "iou": 0.24852566110340507,
+        "absolute_volume_error_ml": 83.2287459314923,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.447392543044717,
+        "iou": 0.2881556062612692,
+        "absolute_volume_error_ml": 28.370001348000727,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.601889382259446,
+      0.552607456955283
+    ]
+  },
+  {
+    "participant": "D1-004",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.6110965013504028,
+    "raw_uncertainty": 0.6110965013504028,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.08917317872447693,
+        "iou": 0.04666732627551862,
+        "absolute_volume_error_ml": 89.24250388292712,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.05437053582803224,
+        "iou": 0.027944959114386957,
+        "absolute_volume_error_ml": 652.8885284070759,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9108268212755231,
+      0.9456294641719678
+    ]
+  },
+  {
+    "participant": "D1-008",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5240541100502014,
+    "raw_uncertainty": 0.5240541100502014,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.3312496991452286,
+        "iou": 0.1985016565843045,
+        "absolute_volume_error_ml": 15.143399598836899,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.3879888886157477,
+        "iou": 0.24068623713305376,
+        "absolute_volume_error_ml": 15.99119957637787,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6687503008547714,
+      0.6120111113842523
+    ]
+  },
+  {
+    "participant": "D1-009",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.43631958961486816,
+    "raw_uncertainty": 0.43631958961486816,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.15922071979677813,
+        "iou": 0.08649636678830944,
+        "absolute_volume_error_ml": 337.55165000042126,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8407792802032219
+    ]
+  },
+  {
+    "participant": "D1-012",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5380978584289551,
+    "raw_uncertainty": 0.5380978584289551,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.3759317196819966,
+        "iou": 0.23147531679418473,
+        "absolute_volume_error_ml": 24.456251230111043,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6240682803180033
+    ]
+  },
+  {
+    "participant": "D1-015",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.43798452615737915,
+    "raw_uncertainty": 0.43798452615737915,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.16289644662564623,
+        "iou": 0.08867025831311545,
+        "absolute_volume_error_ml": 56.603626402036056,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8371035533743538
+    ]
+  },
+  {
+    "participant": "D1-017",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.6263308525085449,
+    "raw_uncertainty": 0.6263308525085449,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.02322157343261735,
+        "iou": 0.011747180726238968,
+        "absolute_volume_error_ml": 784.9830616315893,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9767784265673827
+    ]
+  },
+  {
+    "participant": "D1-020",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5271729230880737,
+    "raw_uncertainty": 0.5271729230880737,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.5669292250666049,
+        "iou": 0.39560448442817076,
+        "absolute_volume_error_ml": 26.22180036108996,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.531518466170958,
+        "iou": 0.3619510725375158,
+        "absolute_volume_error_ml": 37.14480051150625,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4330707749333951,
+      0.468481533829042
+    ]
+  },
+  {
+    "participant": "D1-023",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.46359115839004517,
+    "raw_uncertainty": 0.46359115839004517,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.48923852502337684,
+        "iou": 0.32383571670766037,
+        "absolute_volume_error_ml": 0.6549999902835353,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5107614749766232
+    ]
+  },
+  {
+    "participant": "D1-024",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5332602262496948,
+    "raw_uncertainty": 0.5332602262496948,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.1838798427078422,
+        "iou": 0.10124872077958087,
+        "absolute_volume_error_ml": 26.78099999256452,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.1993067493938257,
+        "iou": 0.11068334338829354,
+        "absolute_volume_error_ml": 13.087000640147615,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8161201572921578,
+      0.8006932506061744
+    ]
+  },
+  {
+    "participant": "D1-025",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4003916084766388,
+    "raw_uncertainty": 0.4003916084766388,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.5378075592607322,
+        "iou": 0.3678090135583131,
+        "absolute_volume_error_ml": 104.13425000000001,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.5636776315479027,
+        "iou": 0.3924450693860387,
+        "absolute_volume_error_ml": 29.038625000000003,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4621924407392678,
+      0.43632236845209726
+    ]
+  },
+  {
+    "participant": "D1-026",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.47876495122909546,
+    "raw_uncertainty": 0.47876495122909546,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.3806865136950823,
+        "iou": 0.23509130067443826,
+        "absolute_volume_error_ml": 58.62125110611988,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "re3",
+        "dice": 0.4041534623423909,
+        "iou": 0.25325333784012166,
+        "absolute_volume_error_ml": 76.1925038863794,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6193134863049177,
+      0.5958465376576091
+    ]
+  },
+  {
+    "participant": "D1-028",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4658193588256836,
+    "raw_uncertainty": 0.4658193588256836,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.38296729128887097,
+        "iou": 0.2368333610234258,
+        "absolute_volume_error_ml": 78.15719919333831,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.617032708711129
+    ]
+  },
+  {
+    "participant": "D1-029",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4385632872581482,
+    "raw_uncertainty": 0.4385632872581482,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.569694017126047,
+        "iou": 0.39830219823407653,
+        "absolute_volume_error_ml": 28.5063603152749,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.43030598287395305
+    ]
+  },
+  {
+    "participant": "D1-030",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4083620309829712,
+    "raw_uncertainty": 0.4083620309829712,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5256677578765195,
+        "iou": 0.3565463352543931,
+        "absolute_volume_error_ml": 90.36300088554883,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.47433224212348046
+    ]
+  },
+  {
+    "participant": "D1-032",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.46206244826316833,
+    "raw_uncertainty": 0.46206244826316833,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5375486742073058,
+        "iou": 0.3675668822112337,
+        "absolute_volume_error_ml": 33.707500630088475,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4624513257926942
+    ]
+  },
+  {
+    "participant": "D1-035",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5353685617446899,
+    "raw_uncertainty": 0.5353685617446899,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.2652470333181196,
+        "iou": 0.15290190500464534,
+        "absolute_volume_error_ml": 38.89275,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7347529666818804
+    ]
+  },
+  {
+    "participant": "D1-036",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4550231993198395,
+    "raw_uncertainty": 0.4550231993198395,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.49537331355513176,
+        "iou": 0.3292333693253838,
+        "absolute_volume_error_ml": 4.969999926273542,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5046266864448683
+    ]
+  },
+  {
+    "participant": "D1-038",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.5140239596366882,
+    "raw_uncertainty": 0.5140239596366882,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.43373359146812296,
+        "iou": 0.27692197770791654,
+        "absolute_volume_error_ml": 15.957500131268299,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.483214866324121,
+        "iou": 0.3185783243754939,
+        "absolute_volume_error_ml": 3.2375000266320613,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.566266408531877,
+      0.5167851336758791
+    ]
+  },
+  {
+    "participant": "D1-042",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.6999372243881226,
+    "raw_uncertainty": 0.6999372243881226,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.06743348189266365,
+        "iou": 0.0348932268363548,
+        "absolute_volume_error_ml": 226.11459840800003,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9325665181073364
+    ]
+  },
+  {
+    "participant": "D1-043",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.44084665179252625,
+    "raw_uncertainty": 0.44084665179252625,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.24650846275491795,
+        "iou": 0.14058149555840369,
+        "absolute_volume_error_ml": 241.5464946039127,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7534915372450821
+    ]
+  },
+  {
+    "participant": "D1-045",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.6279658079147339,
+    "raw_uncertainty": 0.6279658079147339,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.04592033771097828,
+        "iou": 0.023499726545020635,
+        "absolute_volume_error_ml": 567.0876464465468,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9540796622890217
+    ]
+  },
+  {
+    "participant": "D1-049",
+    "method": "deterministic",
+    "partition": "external_test",
+    "uncertainty": 0.4056987464427948,
+    "raw_uncertainty": 0.4056987464427948,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.6276680545054584,
+        "iou": 0.45737334656249534,
+        "absolute_volume_error_ml": 87.6701249819921,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3723319454945416
+    ]
+  },
+  {
+    "participant": "D1-000",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6221469764528209,
+    "raw_uncertainty": 0.6221469764528209,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.1756741231885247,
+        "iou": 0.09629536335666349,
+        "absolute_volume_error_ml": 9.401252321890002,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.3568084909158324,
+        "iou": 0.21714358243896936,
+        "absolute_volume_error_ml": 41.11749832800698,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.37531276063386154,
+        "iou": 0.23100616016427106,
+        "absolute_volume_error_ml": 33.65374863151128,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8243258768114753,
+      0.6431915090841676,
+      0.6246872393661385
+    ]
+  },
+  {
+    "participant": "D1-001",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6288011585493756,
+    "raw_uncertainty": 0.6288011585493756,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.1703777180297058,
+        "iou": 0.0931217988044114,
+        "absolute_volume_error_ml": 190.69200875597625,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.2465002727060229,
+        "iou": 0.14057616825890543,
+        "absolute_volume_error_ml": 114.8500052735504,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8296222819702942,
+      0.7534997272939771
+    ]
+  },
+  {
+    "participant": "D1-002",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.549817287022703,
+    "raw_uncertainty": 0.549817287022703,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.39932689103632124,
+        "iou": 0.24947435475745375,
+        "absolute_volume_error_ml": 4.023499999999999,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.40837625748942263,
+        "iou": 0.2565783900944219,
+        "absolute_volume_error_ml": 81.878875,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6006731089636788,
+      0.5916237425105774
+    ]
+  },
+  {
+    "participant": "D1-003",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.43299295858804854,
+    "raw_uncertainty": 0.43299295858804854,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.4193862833050673,
+        "iou": 0.2653312943417985,
+        "absolute_volume_error_ml": 49.89249756108291,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.43091162561476587,
+        "iou": 0.2746254657476487,
+        "absolute_volume_error_ml": 4.966250235971399,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5806137166949328,
+      0.5690883743852342
+    ]
+  },
+  {
+    "participant": "D1-004",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.8627649333253398,
+    "raw_uncertainty": 0.8627649333253398,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.02070220626024076,
+        "iou": 0.010459369138751597,
+        "absolute_volume_error_ml": 108.00975469948722,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.02187974754640803,
+        "iou": 0.011060878386573896,
+        "absolute_volume_error_ml": 671.6557792236359,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9792977937397592,
+      0.978120252453592
+    ]
+  },
+  {
+    "participant": "D1-008",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.7451754225851792,
+    "raw_uncertainty": 0.7451754225851792,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.22433255688944634,
+        "iou": 0.12633703329969728,
+        "absolute_volume_error_ml": 25.60319932174683,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.2832687269326594,
+        "iou": 0.16500469897454237,
+        "absolute_volume_error_ml": 56.737798496961595,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7756674431105537,
+      0.7167312730673405
+    ]
+  },
+  {
+    "participant": "D1-009",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.35675708699035996,
+    "raw_uncertainty": 0.35675708699035996,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.22719577156542925,
+        "iou": 0.12815615391782353,
+        "absolute_volume_error_ml": 241.54296972973503,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7728042284345708
+    ]
+  },
+  {
+    "participant": "D1-012",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6008629610818502,
+    "raw_uncertainty": 0.6008629610818502,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.4926603529918209,
+        "iou": 0.32684097042738214,
+        "absolute_volume_error_ml": 0.430000021628326,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.507339647008179
+    ]
+  },
+  {
+    "participant": "D1-015",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6218280826666115,
+    "raw_uncertainty": 0.6218280826666115,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.0703962703962704,
+        "iou": 0.03648224208746074,
+        "absolute_volume_error_ml": 9.278750229828779,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9296037296037296
+    ]
+  },
+  {
+    "participant": "D1-017",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.8292754737498791,
+    "raw_uncertainty": 0.8292754737498791,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.01105988284461074,
+        "iou": 0.005560691721794392,
+        "absolute_volume_error_ml": 789.2890619696675,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9889401171553892
+    ]
+  },
+  {
+    "participant": "D1-020",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.7006249870596717,
+    "raw_uncertainty": 0.7006249870596717,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.5409241190226595,
+        "iou": 0.3707306289377694,
+        "absolute_volume_error_ml": 13.65210018799763,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.51591938710162,
+        "iou": 0.34763568947514223,
+        "absolute_volume_error_ml": 2.729100037581349,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.45907588097734053,
+      0.48408061289838
+    ]
+  },
+  {
+    "participant": "D1-023",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.44318692519244146,
+    "raw_uncertainty": 0.44318692519244146,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5517588364620328,
+        "iou": 0.38098546730581717,
+        "absolute_volume_error_ml": 11.157499834486329,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.44824116353796717
+    ]
+  },
+  {
+    "participant": "D1-024",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6021905227498474,
+    "raw_uncertainty": 0.6021905227498474,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.17114632728281337,
+        "iou": 0.0935812032618967,
+        "absolute_volume_error_ml": 57.750999983966004,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.18874187888272395,
+        "iou": 0.10420484892915118,
+        "absolute_volume_error_ml": 17.88300087474286,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8288536727171867,
+      0.811258121117276
+    ]
+  },
+  {
+    "participant": "D1-025",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.42441143713278107,
+    "raw_uncertainty": 0.42441143713278107,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.5143863769817968,
+        "iou": 0.34624505928853755,
+        "absolute_volume_error_ml": 133.42450000000002,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.5352303309778247,
+        "iou": 0.3654023853013861,
+        "absolute_volume_error_ml": 58.328875000000004,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4856136230182032,
+      0.4647696690221753
+    ]
+  },
+  {
+    "participant": "D1-026",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.5405491734583745,
+    "raw_uncertainty": 0.5405491734583745,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.3557011899166751,
+        "iou": 0.21632393561037117,
+        "absolute_volume_error_ml": 90.16875170138724,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "re3",
+        "dice": 0.3779000496442165,
+        "iou": 0.23296964503409898,
+        "absolute_volume_error_ml": 107.74000549553455,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6442988100833249,
+      0.6220999503557836
+    ]
+  },
+  {
+    "participant": "D1-028",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.4874434641375582,
+    "raw_uncertainty": 0.4874434641375582,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.3991232358788827,
+        "iou": 0.2493154031740861,
+        "absolute_volume_error_ml": 23.659199755813024,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6008767641211172
+    ]
+  },
+  {
+    "participant": "D1-029",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.5179091068804738,
+    "raw_uncertainty": 0.5179091068804738,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5204205526424636,
+        "iou": 0.3517354567015051,
+        "absolute_volume_error_ml": 41.165520455282795,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.47957944735753644
+    ]
+  },
+  {
+    "participant": "D1-030",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.37184635523330856,
+    "raw_uncertainty": 0.37184635523330856,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5941317576621152,
+        "iou": 0.4226084207394183,
+        "absolute_volume_error_ml": 27.24312526698004,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.40586824233788477
+    ]
+  },
+  {
+    "participant": "D1-032",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6510900310323479,
+    "raw_uncertainty": 0.6510900310323479,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.44849062728231764,
+        "iou": 0.2890673012801234,
+        "absolute_volume_error_ml": 4.852500090706945,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5515093727176823
+    ]
+  },
+  {
+    "participant": "D1-035",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.5629069967600373,
+    "raw_uncertainty": 0.5629069967600373,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.224237903089078,
+        "iou": 0.12627699593270827,
+        "absolute_volume_error_ml": 75.06524999999999,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.775762096910922
+    ]
+  },
+  {
+    "participant": "D1-036",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.5127696661752121,
+    "raw_uncertainty": 0.5127696661752121,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.4678080821552414,
+        "iou": 0.3053195077632824,
+        "absolute_volume_error_ml": 31.97249952571043,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5321919178447586
+    ]
+  },
+  {
+    "participant": "D1-038",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.6091381058902052,
+    "raw_uncertainty": 0.6091381058902052,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.4141271674824974,
+        "iou": 0.2611351673293305,
+        "absolute_volume_error_ml": 43.49125035776421,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.48426440978739377,
+        "iou": 0.3194913498860761,
+        "absolute_volume_error_ml": 30.771250253127974,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5858728325175027,
+      0.5157355902126062
+    ]
+  },
+  {
+    "participant": "D1-042",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.8920798152183927,
+    "raw_uncertainty": 0.8920798152183927,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.022881987438438826,
+        "iou": 0.011573404972823468,
+        "absolute_volume_error_ml": 238.31634697302457,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9771180125615612
+    ]
+  },
+  {
+    "participant": "D1-043",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.47067275022401933,
+    "raw_uncertainty": 0.47067275022401933,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.2273072616233359,
+        "iou": 0.12822710710232363,
+        "absolute_volume_error_ml": 188.78549578258,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7726927383766641
+    ]
+  },
+  {
+    "participant": "D1-045",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.9317824541433579,
+    "raw_uncertainty": 0.9317824541433579,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.01027626933324287,
+        "iou": 0.00516467144400961,
+        "absolute_volume_error_ml": 613.4001481980279,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9897237306667571
+    ]
+  },
+  {
+    "participant": "D1-049",
+    "method": "ensemble",
+    "partition": "external_test",
+    "uncertainty": 0.3205114989615964,
+    "raw_uncertainty": 0.3205114989615964,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.6606043555967432,
+        "iou": 0.4932107688696146,
+        "absolute_volume_error_ml": 30.75749999368225,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.33939564440325676
+    ]
+  },
+  {
+    "participant": "D1-000",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4018495830304038,
+    "raw_uncertainty": 0.4018495830304038,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.1113223005079469,
+        "iou": 0.05894192563288394,
+        "absolute_volume_error_ml": 9.27750229132663,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.3708204576229992,
+        "iou": 0.227611781253996,
+        "absolute_volume_error_ml": 40.99374833303912,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.3678138054505669,
+        "iou": 0.22535039609993907,
+        "absolute_volume_error_ml": 33.52999863654342,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.8886776994920531,
+      0.6291795423770008,
+      0.6321861945494331
+    ]
+  },
+  {
+    "participant": "D1-001",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.6277894501520385,
+    "raw_uncertainty": 0.6277894501520385,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.08002041290569512,
+        "iou": 0.0416777414945322,
+        "absolute_volume_error_ml": 201.07700923282275,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.12067368948735266,
+        "iou": 0.06421114247819741,
+        "absolute_volume_error_ml": 125.2350057503969,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9199795870943048,
+      0.8793263105126473
+    ]
+  },
+  {
+    "participant": "D1-002",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.469285708813347,
+    "raw_uncertainty": 0.469285708813347,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.4072731859076768,
+        "iou": 0.25570812414543115,
+        "absolute_volume_error_ml": 97.1165,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r2",
+        "dice": 0.42256605720482865,
+        "iou": 0.2678819351738132,
+        "absolute_volume_error_ml": 19.261125,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5927268140923232,
+      0.5774339427951714
+    ]
+  },
+  {
+    "participant": "D1-003",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4365731788221715,
+    "raw_uncertainty": 0.4365731788221715,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.4052898478671572,
+        "iou": 0.25414640229455043,
+        "absolute_volume_error_ml": 39.27999807985843,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.4701906959579926,
+        "iou": 0.30735248812755395,
+        "absolute_volume_error_ml": 94.13875447300329,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5947101521328428,
+      0.5298093040420073
+    ]
+  },
+  {
+    "participant": "D1-004",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.6735526832050336,
+    "raw_uncertainty": 0.6735526832050336,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.09836959299453124,
+        "iou": 0.0517290808098907,
+        "absolute_volume_error_ml": 99.986254350386,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.040965094505395,
+        "iou": 0.020910854824739523,
+        "absolute_volume_error_ml": 663.6322788745348,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9016304070054688,
+      0.959034905494605
+    ]
+  },
+  {
+    "participant": "D1-008",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.7996480259339209,
+    "raw_uncertainty": 0.7996480259339209,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r1",
+        "dice": 0.02114332681461327,
+        "iou": 0.010684617588083643,
+        "absolute_volume_error_ml": 119.59199683189392,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.016867168205046492,
+        "iou": 0.008505314386722067,
+        "absolute_volume_error_ml": 150.7265960071087,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9788566731853867,
+      0.9831328317949535
+    ]
+  },
+  {
+    "participant": "D1-009",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.45282071008000785,
+    "raw_uncertainty": 0.45282071008000785,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.23370826554390176,
+        "iou": 0.13231577829687832,
+        "absolute_volume_error_ml": 58.96233673908057,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7662917344560982
+    ]
+  },
+  {
+    "participant": "D1-012",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.5778501299896702,
+    "raw_uncertainty": 0.5778501299896702,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.3249963481732751,
+        "iou": 0.19402724753396253,
+        "absolute_volume_error_ml": 39.563751989994614,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6750036518267248
+    ]
+  },
+  {
+    "participant": "D1-015",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.3201951952100427,
+    "raw_uncertainty": 0.3201951952100427,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.03572272681230374,
+        "iou": 0.018186193619361937,
+        "absolute_volume_error_ml": 2.6503750656481153,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9642772731876963
+    ]
+  },
+  {
+    "participant": "D1-017",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.8165393989142086,
+    "raw_uncertainty": 0.8165393989142086,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.006950255000398438,
+        "iou": 0.003487246125108547,
+        "absolute_volume_error_ml": 797.5540626185797,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9930497449996015
+    ]
+  },
+  {
+    "participant": "D1-020",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.5185693335772736,
+    "raw_uncertainty": 0.5185693335772736,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.43014522780245834,
+        "iou": 0.27400319788837846,
+        "absolute_volume_error_ml": 53.270800733570965,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.42549522461973827,
+        "iou": 0.2702406694936673,
+        "absolute_volume_error_ml": 42.34780058315469,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5698547721975417,
+      0.5745047753802617
+    ]
+  },
+  {
+    "participant": "D1-023",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4092391325558885,
+    "raw_uncertainty": 0.4092391325558885,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5056094661469133,
+        "iou": 0.33833824204123314,
+        "absolute_volume_error_ml": 80.73874880229738,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.49439053385308673
+    ]
+  },
+  {
+    "participant": "D1-024",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4803363719700519,
+    "raw_uncertainty": 0.4803363719700519,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.02300381457296179,
+        "iou": 0.011635740494862353,
+        "absolute_volume_error_ml": 90.55799997485747,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.017072873294890333,
+        "iou": 0.008609934810493578,
+        "absolute_volume_error_ml": 50.69000247948977,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9769961854270383,
+      0.9829271267051096
+    ]
+  },
+  {
+    "participant": "D1-025",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.27197277396383324,
+    "raw_uncertainty": 0.27197277396383324,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.522118265480487,
+        "iou": 0.35328825932762303,
+        "absolute_volume_error_ml": 111.73525000000001,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.5547141105959078,
+        "iou": 0.38380926200325854,
+        "absolute_volume_error_ml": 36.639625,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.477881734519513,
+      0.4452858894040922
+    ]
+  },
+  {
+    "participant": "D1-026",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4997787706774754,
+    "raw_uncertainty": 0.4997787706774754,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.17046996717822405,
+        "iou": 0.09317691654140252,
+        "absolute_volume_error_ml": 165.66375312589662,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "re3",
+        "dice": 0.16777701793474664,
+        "iou": 0.09157019619174898,
+        "absolute_volume_error_ml": 183.2350093463363,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.829530032821776,
+      0.8322229820652534
+    ]
+  },
+  {
+    "participant": "D1-028",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.4312514879683247,
+    "raw_uncertainty": 0.4312514879683247,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.26520077048451624,
+        "iou": 0.15287115994315076,
+        "absolute_volume_error_ml": 118.79571877390751,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7347992295154837
+    ]
+  },
+  {
+    "participant": "D1-029",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.3741954486414951,
+    "raw_uncertainty": 0.3741954486414951,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.45400560718779664,
+        "iou": 0.2936657527987206,
+        "absolute_volume_error_ml": 58.52676064729479,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.5459943928122033
+    ]
+  },
+  {
+    "participant": "D1-030",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.2570978561147012,
+    "raw_uncertainty": 0.2570978561147012,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.6357567309808525,
+        "iou": 0.4660141966014197,
+        "absolute_volume_error_ml": 22.017125215765734,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.3642432690191475
+    ]
+  },
+  {
+    "participant": "D1-032",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.6266906321462844,
+    "raw_uncertainty": 0.6266906321462844,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.23159775965788507,
+        "iou": 0.1309644120407132,
+        "absolute_volume_error_ml": 49.74625092989806,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.7684022403421149
+    ]
+  },
+  {
+    "participant": "D1-035",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.5546152918196925,
+    "raw_uncertainty": 0.5546152918196925,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.12858837485172006,
+        "iou": 0.06871196754563895,
+        "absolute_volume_error_ml": 116.0705,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.87141162514828
+    ]
+  },
+  {
+    "participant": "D1-036",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.329349343845975,
+    "raw_uncertainty": 0.329349343845975,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.5557706650586349,
+        "iou": 0.38482161496961903,
+        "absolute_volume_error_ml": 24.38999963819149,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.4442293349413651
+    ]
+  },
+  {
+    "participant": "D1-038",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.7513772681800065,
+    "raw_uncertainty": 0.7513772681800065,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r2",
+        "dice": 0.07721108579344127,
+        "iou": 0.04015577852720382,
+        "absolute_volume_error_ml": 114.82625094457443,
+        "prediction_empty": false,
+        "reference_empty": false
+      },
+      {
+        "rater": "r3",
+        "dice": 0.08331190537413216,
+        "iou": 0.043466595116715856,
+        "absolute_volume_error_ml": 102.1062508399382,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9227889142065587,
+      0.9166880946258679
+    ]
+  },
+  {
+    "participant": "D1-042",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.7450770875372843,
+    "raw_uncertainty": 0.7450770875372843,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.016135036476072475,
+        "iou": 0.008133132432265907,
+        "absolute_volume_error_ml": 236.25384721558297,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9838649635239275
+    ]
+  },
+  {
+    "participant": "D1-043",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.37091523742881327,
+    "raw_uncertainty": 0.37091523742881327,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.32188058734918557,
+        "iou": 0.19181029962625368,
+        "absolute_volume_error_ml": 48.34199892005203,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.6781194126508144
+    ]
+  },
+  {
+    "participant": "D1-045",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.6772165879843868,
+    "raw_uncertainty": 0.6772165879843868,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.0462768605432925,
+        "iou": 0.02368649866948968,
+        "absolute_volume_error_ml": 602.8620227994891,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.9537231394567075
+    ]
+  },
+  {
+    "participant": "D1-049",
+    "method": "dropout",
+    "partition": "external_test",
+    "uncertainty": 0.19352025387434768,
+    "raw_uncertainty": 0.19352025387434768,
+    "empty_prediction": false,
+    "both_empty_member_pairs": 0,
+    "references": [
+      {
+        "rater": "r3",
+        "dice": 0.7378691134123876,
+        "iou": 0.5846217070301982,
+        "absolute_volume_error_ml": 10.430999997857418,
+        "prediction_empty": false,
+        "reference_empty": false
+      }
+    ],
+    "errors": [
+      0.2621308865876124
+    ]
+  }
+]

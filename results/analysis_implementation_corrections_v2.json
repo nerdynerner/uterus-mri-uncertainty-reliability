@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-22T02:23:00.593660+00:00",
+  "scope": "Secondary loader tolerance alignment and exact background-domain crop acceleration; primary predictions, cohort, thresholds and statistical endpoints unchanged.",
+  "after_primary_test_outcomes_available": true,
+  "equivalence_record_sha256": "d21beba986c6380c314a57da5bafd6c4dacdb75bc75d83ce9b4e607281714d78",
+  "files": {
+    "research_analysis.py": {
+      "original_sha256": "62884015ed6f506f830b5df82203919f6c51c010210fd62052fc0aaa8c05500b",
+      "corrected_sha256": "17a2a88c7d6d5bb797adf1557af4292634154dbed46c14aa731c4424e29c8da1"
+    },
+    "spatial_endpoints.py": {
+      "original_sha256": "21131a072ebdb6f21e398ff79cead00ac4a37ed9a99169ebfccba60a600c6851",
+      "corrected_sha256": "e6c340630b119726ae3e580786d5f668b9ebe9ab5be90df87289f7e7c69ef70b"
+    }
+  },
+  "prior_tolerance_record": "analysis_implementation_correction.json"
+}

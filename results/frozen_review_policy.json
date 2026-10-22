@@ -1,0 +1,38 @@
+{
+  "quantile": 0.8,
+  "tie_rule": "retain uncertainty <= threshold",
+  "provenance": {
+    "score_sha256": "0dc5cb0be075c477313596a00e629451ef0ae6e69006965e1510c89167e6cb2b",
+    "checkpoint_sha256": {
+      "deterministic": [
+        "6b1a21c351b092e112f250575e7908de42c5cbb0a30846be55091bc1253164fe"
+      ],
+      "ensemble": [
+        "6b1a21c351b092e112f250575e7908de42c5cbb0a30846be55091bc1253164fe",
+        "6b51b39c5450300249eb0a5f1fba615538c0827a59efcbbb8224a974b8ec1e77",
+        "6f438e7437ebe21509b0c6d6119ed7aab38837de3b0bc861d2621dfd0458ad7a",
+        "569eab00504f8aa07af829d738de93ef5c5e9848a1d2e8983659766423b5a3ae",
+        "e3fb348e154b5264fa4f3b5b3dfd044a2bfad6c331c6c1b082e93fef37e17cca"
+      ],
+      "dropout": [
+        "d39f90e0ea6314a76bdbcc952e58a9af4462ad4e4de69c0fba2e8e3f5fbc0090"
+      ]
+    },
+    "configuration_sha256": "05b89198cdea3f75df263fc807c17b478f8dbe0e4513f139c35301e4efa25964"
+  },
+  "calibration_ids": [
+    "D2-004",
+    "D2-022",
+    "D2-039",
+    "D2-042",
+    "D2-050",
+    "D2-067",
+    "D2-072",
+    "D2-079"
+  ],
+  "thresholds": {
+    "deterministic": 0.4375477910041809,
+    "dropout": 0.388133248640557,
+    "ensemble": 0.4153046539313615
+  }
+}

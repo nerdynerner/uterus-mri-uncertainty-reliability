@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "synthetic_fixtures": [
+    {
+      "edge_foreground": false,
+      "spacing": [
+        0.6,
+        0.9,
+        4.0
+      ],
+      "status": "passed"
+    },
+    {
+      "edge_foreground": true,
+      "spacing": [
+        2.0,
+        1.0,
+        3.0
+      ],
+      "status": "passed"
+    },
+    {
+      "edge_foreground": false,
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "status": "passed"
+    }
+  ],
+  "real_case": "D1-000",
+  "real_method": "ensemble",
+  "absolute_float_tolerance": 1e-12,
+  "all_domain_counts_and_summary_fields_match": true,
+  "full_grid_seconds": 1.2316562500200234,
+  "cropped_seconds": 0.09250612501637079,
+  "original_result": {
+    "status": "computed",
+    "pairwise_reference_dice": [
+      0.6979163335997869,
+      0.7108612015389169,
+      0.8935854522331246
+    ],
+    "union_plus_5mm": {
+      "disagreement_voxels": 32897,
+      "agreement_voxels": 77733,
+      "mean_entropy_difference": 0.19241097569465637
+    },
+    "boundary_2mm_sensitivity": {
+      "disagreement_voxels": 27281,
+      "agreement_voxels": 32347,
+      "mean_entropy_difference": 0.1260659396648407
+    },
+    "soft_reference_brier": 0.24856959817108684,
+    "majority_vote_available": true,
+    "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+  },
+  "cropped_result": {
+    "status": "computed",
+    "pairwise_reference_dice": [
+      0.6979163335997869,
+      0.7108612015389169,
+      0.8935854522331246
+    ],
+    "union_plus_5mm": {
+      "disagreement_voxels": 32897,
+      "agreement_voxels": 77733,
+      "mean_entropy_difference": 0.19241097569465637
+    },
+    "boundary_2mm_sensitivity": {
+      "disagreement_voxels": 27281,
+      "agreement_voxels": 32347,
+      "mean_entropy_difference": 0.1260659396648407
+    },
+    "soft_reference_brier": 0.24856959817108684,
+    "majority_vote_available": true,
+    "definition": "Entropy difference per participant; no voxel-level inferential sample size"
+  }
+}
