@@ -1,6 +1,7 @@
 # Assessing the Reliability of Machine Learning Error Identification Across Uterus MRI Cohorts
 
-Neriah Otu
+Neriah Otu  
+Department of Biomedical Engineering, University of Calgary, Calgary, Alberta, Canada
 
 ## Overview
 
