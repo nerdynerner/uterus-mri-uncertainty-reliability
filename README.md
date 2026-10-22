@@ -4,7 +4,7 @@ Neriah Otu
 
 ## Overview
 
-Research implementation for an exploratory secondary analysis of UT-EndoMRI, associated with the manuscript of the same title intended for CANPAD Medical Journal. The study evaluates whether uncertainty-based review thresholds preserve their performance across acquisition cohorts in automatic uterus segmentation.
+Research implementation for a secondary analysis of UT-EndoMRI. The study evaluates whether uncertainty-based review thresholds preserve their performance across acquisition cohorts in automatic uterus segmentation.
 
 ## Research objective
 
@@ -85,7 +85,7 @@ Dataset reference: Liang X, Alpuing Radilla LA, Khalaj K, et al. A Multi-Modal P
 
 ## Citation
 
-Citation metadata is supplied in `CITATION.cff`. Cite Neriah Otu and the software title, repository URL and the commit used. No software DOI has been assigned. The manuscript has not been represented as an accepted or published article.
+Citation metadata is supplied in `CITATION.cff`. Cite Neriah Otu and the software title, repository URL and the commit used. No software DOI has been assigned. 
 
 ## License
 
