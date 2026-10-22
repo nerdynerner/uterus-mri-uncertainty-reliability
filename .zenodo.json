@@ -3,7 +3,8 @@
   "upload_type": "software",
   "creators": [
     {
-      "name": "Otu, Neriah"
+      "name": "Otu, Neriah",
+      "affiliation": "Department of Biomedical Engineering, University of Calgary, Calgary, Alberta, Canada"
     }
   ],
   "description": "Manuscript-associated code for uncertainty ranking, calibration and fixed-threshold review performance in automatic uterus MRI segmentation across UT-EndoMRI cohorts.",
