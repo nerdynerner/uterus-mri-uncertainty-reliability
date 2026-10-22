@@ -86,7 +86,7 @@ Dataset reference: Liang X, Alpuing Radilla LA, Khalaj K, et al. A Multi-Modal P
 
 ## Citation
 
-Citation metadata is supplied in `CITATION.cff`. Cite Neriah Otu and the software title, repository URL and the commit used. No software DOI has been assigned. 
+Version 1.0.0 is archived in Zenodo at [https://doi.org/10.5281/zenodo.23578800](https://doi.org/10.5281/zenodo.23578800). Citation metadata is supplied in `CITATION.cff`. Cite Neriah Otu, the software title, version 1.0.0 and the software DOI.
 
 ## License
 
