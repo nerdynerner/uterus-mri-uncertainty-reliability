@@ -1,9 +1,9 @@
-# Availability statements
+# Code and data availability
 
-## Code Availability
+## Code availability
 
-Code, configurations and reproducibility instructions are maintained at https://github.com/nerdynerner/uterus-mri-uncertainty-reliability. The repository is currently private and is being prepared for public release.
+The source code, fixed configurations and numerical analysis outputs supporting this study are publicly available under the MIT License at https://github.com/nerdynerner/uterus-mri-uncertainty-reliability. Version 1.0.0 is archived in Zenodo at https://doi.org/10.5281/zenodo.23578800.
 
-## Data Availability
+## Data availability
 
-The UT-EndoMRI v2 dataset is available from its official repository at https://doi.org/10.5281/zenodo.15750762 under the provider's terms. Derived evaluation scores, aggregate results and analysis configurations are included in the private code repository. Source images, annotations, native predictions and trained weights are not redistributed.
+Source MRI images and annotations are available separately from the official UT-EndoMRI v2 record at https://doi.org/10.5281/zenodo.15750762, subject to the dataset provider terms and citation requirements. MRI images, annotations, native predictions and trained model weights are excluded from the code repository.
